@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:background="@drawable/wifi_select_group_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/wifi_group_text_size" android:textColor="@color/groupitem_text" android:gravity="center" android:id="@+id/wifi_group_name" android:layout_width="wrap_content" android:layout_height="@dimen/wifi_group_height" android:layout_marginLeft="@dimen/group_item_padding" android:text="当前连接WiFi" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/wifi_loading_view" android:background="@drawable/wifi_search_loading" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/wifi_group_name" android:layout_centerVertical="true"/>
+</RelativeLayout>

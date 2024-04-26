@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:background="@color/groupitem_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/top_title" android:background="@drawable/wifi_top_bg" android:layout_width="match_parent" android:layout_height="@dimen/title_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/title_text" android:textColor="@color/black" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_select" android:layout_centerInParent="true"/>
+        <Button android:id="@+id/back_btn" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="@dimen/back_btn_height" android:layout_marginLeft="@dimen/back_btn_marginleft" android:text="" android:drawableLeft="@drawable/wifi_back_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ExpandableListView android:id="@+id/wifi_list" android:fadingEdge="none" android:fadingEdgeLength="0px" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:layout_below="@+id/top_title" android:overScrollMode="never"/>
+</RelativeLayout>

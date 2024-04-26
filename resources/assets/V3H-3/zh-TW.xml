@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="tl_shutdown">關機</string>
+  <string name="tl_sd_mount">有卡</string>
+  <string name="tl_sd_unmount">無卡</string>
+  <string name="tl_model_select">模式選擇</string>
+  <string-array name="mode_list">
+    <item>mode_normal_rec</item>
+    <item>mode_slowly_rec</item>
+    <item>mode_loop_rec</item>
+    <item>mode_timelapse_rec</item>
+    <item>mode_track_rec</item>
+    <item>mode_normal_pic</item>
+    <item>mode_auto_pic</item>
+    <item>mode_continue_pic</item>
+    <item>mode_timing_pic</item>
+  </string-array>
+  <string name="mode_normal_rec">普通錄像</string>
+  <string name="mode_slowly_rec">慢攝影</string>
+  <string name="mode_loop_rec">循環錄影</string>
+  <string-array name="mode_loop_rec">
+    <item>關閉</item>
+    <item>2 min</item>
+    <item>3 min</item>
+    <item>5 min</item>
+  </string-array>  
+  <string name="mode_timelapse_rec">縮時錄像</string>
+  <string name="mode_track_rec">轨迹錄像</string>
+  <string name="mode_normal_pic">普通拍照</string>
+  <string name="mode_auto_pic">自動拍照</string>
+  <string name="mode_continue_pic">連續拍照</string>
+  <string name="mode_timing_pic">定時拍照</string>
+   <string-array name="mode_timing_pic">
+    <item>2秒</item>
+    <item>3秒</item>
+    <item>5秒</item> 
+    <item>10秒</item>   	
+    <item>20秒</item>
+    <item>30秒</item>
+    <item>60秒</item>
+  </string-array>   
+ <string name="time_osd_mode">時間戳記</string>
+   <string-array name="time_osd_mode">
+    <item>關閉</item>
+    <item>日期</item>
+    <item>日期時間</item>
+  </string-array>  
+ <string name="ml_shutter">曝光</string>
+   <string-array name="ml_shutter">
+    <item>-2.0</item>
+    <item>-1.7</item>
+    <item>-1.3</item>
+    <item>-1.0</item>
+    <item>-0.7</item>
+    <item>-0.3</item>
+    <item>0.0</item>
+    <item>+0.3</item>
+    <item>+0.7</item> 
+    <item>+1.0</item>
+    <item>+1.3</item>
+    <item>+1.7</item>
+    <item>+2.0</item>           
+  </string-array>   
+ <string name="three_continue_mode">三連拍</string>
+   <string-array name="three_continue_mode">
+    <item>3張</item>
+  </string-array>  
+ <string name="ml_continue_timing_mode">連續定時</string>
+   <string-array name="ml_continue_timing_mode">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array>  
+   
+  <string-array name="function_list">
+    <item>function_mode</item>
+    <item>function_media</item>
+    <item>function_setting</item>
+    <item>function_return</item>
+  </string-array>  
+  <string name="function_mode">模式</string>
+  <string name="function_media">媒体库</string>
+  <string name="function_setting">設置</string>
+  <string name="function_return">返回</string>    
+  <string name="ml_trackrec_resolution">视频分辨率</string>
+  <string-array name="ml_trackrec_resolution">
+    <item>1080P30FPS</item>
+  </string-array>
+  <string name="ml_trackrec_length">视频长度</string>
+  <string-array name="ml_trackrec_length">
+    <item>5s</item>
+    <item>10s</item>
+    <item>15s</item>
+  </string-array>
+  <string name="ml_track_interval">轨迹间隔</string>
+  <string-array name="ml_track_interval">
+    <item>高</item>
+    <item>中</item>
+    <item>低</item>
+  </string-array>
+  <string name="ml_record_resolution">視頻尺寸</string>
+  <string-array name="ml_record_resolution">
+    <item>4K30FPS</item>
+    <item>2.7K30FPS</item>
+    <item>1080P60FPS</item>
+    <item>1080P30FPS</item>
+    <item>720P120FPS</item>
+    <item>720P60FPS</item>
+    <item>720P30FPS</item>
+  </string-array>
+  <string name="ml_setting_first_colwidth">110</string>
+  <string name="ml_setting_second_colwidth">110</string>
+  <string name="ml_setting_third_colwidth">34</string>
+  <string name="ml_modelselect_item_width">106</string>
+  <string name="ml_modelselect_item_height">90</string>
+  <string name="ml_voicectrl_list_item_height">50</string>
+  <string name="ml_record_antishake">防抖</string>
+  <string name="ml_record_encodingtype">主錄像編碼類型</string>
+  <string-array name="ml_record_encodingtype">
+    <item>H264</item>
+    <item>H265</item>
+  </string-array>
+  <string name="ml_record_audio">錄像聲音</string>
+  <string-array name="ml_record_audio">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array>
+  <string name="ml_record_eis">電子防抖</string>
+  <string-array name="ml_record_eis">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array>
+  <string name="ml_record_interval">錄像間隔</string>
+  <string-array name="ml_record_interval">
+    <item>0.5s</item>
+    <item>1s</item>
+    <item>2s</item>
+    <item>5s</item>
+    <item>10s</item>
+    <item>30s</item>
+    <item>60s</item>
+  </string-array>
+  <string name="ml_record_length">視頻長度</string>
+  <string-array name="ml_record_length">
+    <item>2 min</item>
+    <item>3 min</item>
+    <item>5 min</item>
+  </string-array>
+  <string name="ml_record_slowmotion">慢攝影</string>
+  <string-array name="ml_record_slowmotion">
+    <item>1080P 4X</item>
+    <item>1080P 2X</item>
+    <item>720P 8X</item>
+    <item>720P 4X</item>
+  </string-array>
+  <string name="ml_timelapse_resolution">錄像分辨率</string>
+  <string-array name="ml_timelapse_resolution">
+    <item>4K</item>
+    <item>2.7K</item>
+    <item>1080P</item>
+    <item>720P</item>
+  </string-array>
+  <string name="ml_photo_resolution">圖像尺寸</string>
+  <string-array name="ml_photo_resolution">
+    <item>16M</item>
+    <item>13M</item>
+    <item>8M</item>
+  </string-array>
+  <string name="ml_photo_formate">圖像格式</string>
+  <string-array name="ml_photo_formate">
+    <item>JPEG</item>
+    <item>JPEG+RAW</item>
+  </string-array>
+  <string name="ml_photo_timewater">圖像水印</string>
+  <string name="ml_photo_countdown">倒計時</string>
+  <string-array name="ml_photo_countdown">
+    <item>3s</item>
+    <item>5s</item>
+    <item>10s</item>
+    <item>20s</item>
+  </string-array>
+  <string name="ml_photo_interval">拍照間隔</string>
+  <string-array name="ml_photo_interval">
+    <item>3s</item>
+    <item>10s</item>
+    <item>15s</item>
+    <item>20s</item>
+    <item>30s</item>
+  </string-array>
+  <string name="ml_photo_freq">拍照頻率</string>
+  <string-array name="ml_photo_freq">
+    <item>3P/s</item>
+    <item>5P/s</item>
+    <item>10P/s</item>
+  </string-array>
+  <string name="ml_camera_metering">測光模式</string>
+  <string-array name="ml_camera_metering">
+    <item>平均測光</item>
+    <item>中心測光</item>
+    <item>點測光</item>
+    <item>矩陣測光</item>
+  </string-array>
+  <string name="ml_camera_sharpness">銳度</string>
+  <string-array name="ml_camera_sharpness">
+    <item>高</item>
+    <item>中</item>
+    <item>低</item>
+  </string-array>
+   <string name="ml_video_quality">視頻效果</string>
+  <string-array name="ml_video_quality">
+    <item>高</item>
+    <item>中</item>
+    <item>低</item>
+  </string-array>
+   <string name="ml_video_shutter">長曝光</string>
+  <string-array name="ml_video_shutter">
+    <item>自動</item>
+    <item>1/240秒</item>
+    <item>1/120秒</item>
+    <item>1/60秒</item>
+    <item>1/30秒</item>
+  </string-array>
+   <string name="ml_photo_shutter">長曝光</string>
+  <string-array name="ml_photo_shutter">
+    <item>自動</item>
+    <item>2秒</item>
+    <item>5秒</item>
+    <item>10秒</item>
+    <item>15秒</item>
+    <item>20秒</item>
+    <item>30秒</item>
+  </string-array>
+  <string name="ml_camera_iso">感光度</string>
+  <string-array name="ml_camera_iso">
+    <item>自動</item>
+    <item>100</item>
+    <item>200</item>
+    <item>400</item>
+    <item>800</item>
+    <item>1600</item>
+    <item>3200</item>
+    <item>6400</item>
+  </string-array>
+  <string name="ml_video_length">視頻長度</string>
+  <string-array name="ml_video_length">
+    <item>不限</item>
+    <item>6秒</item>
+    <item>8秒</item>
+    <item>10秒</item>
+    <item>20秒</item>
+    <item>30秒</item>
+    <item>60秒</item>
+    <item>120秒</item>
+  </string-array>
+   <string name="ml_photo_dramashot">運動軌跡拍照</string>
+  <string-array name="ml_photo_dramashot">
+    <item>關閉</item>
+    <item>3P/S</item>
+    <item>5P/S</item>
+    <item>10P/S</item>
+  </string-array>
+  <string name="ml_camera_exposure">曝光設置</string>
+  <string-array name="ml_camera_exposure">
+    <item>-3</item>
+    <item>-2</item>
+    <item>-1</item>
+    <item>0</item>     
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <string name="ml_camera_whitebalance">白平衡</string>
+  <string-array name="ml_camera_whitebalance">
+    <item>自動</item>
+    <item>晴天</item>
+    <item>陰天</item>
+    <item>白熾光</item>
+    <item>熒光</item>
+  </string-array>
+   <string name="ml_camera_imagerotation">旋轉180°</string>
+  <string-array name="ml_camera_imagerotation">
+    <item>打開</item>  	
+    <item>關閉</item>
+  </string-array>
+   <string name="ml_camera_lightsourcefrequency">電源頻率</string>
+  <string-array name="ml_camera_lightsourcefrequency">
+    <item>50Hz</item>
+    <item>60Hz</item>
+    <item>自动</item>    
+  </string-array>
+  <string name="ml_camera_ledindicator">LED指示燈</string>
+  <string-array name="ml_camera_ledindicator">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array>
+   <string name="ml_camera_autoscreensaver">屏幕保護</string>
+  <string-array name="ml_camera_autoscreensaver">
+    <item>關閉</item>
+    <item>1分鐘</item>
+    <item>3分鐘</item>
+    <item>5分鐘</item>    
+  </string-array>
+   <string name="ml_camera_timedshutdown">省電設定</string>
+  <string-array name="ml_camera_timedshutdown">
+    <item>關閉</item>
+    <item>1分鐘</item>
+    <item>3分鐘</item>
+    <item>5分鐘</item>
+  </string-array>
+  <string name="ml_camera_timewatermark">時間水印</string>
+  <string-array name="ml_camera_timewatermark">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array>
+  <string name="ml_device_beep">提示音設置</string>
+  <string-array name="ml_device_beep">
+    <item>高</item>
+    <item>中</item>
+    <item>低</item>
+    <item>關</item>
+  </string-array>
+  <string name="ml_device_voice_ctrl_list">语音控制列表</string>
+    <string-array name="ml_device_voice_ctrl_list">
+    <item>小志开始录像</item>
+    <item>小志停止录像</item>
+    <item>小志拍照</item>
+    <item>小志连拍</item>
+    <item>小志关机</item>
+    <item>……</item>
+  </string-array>
+  <string name="ml_device_voice_ctrl">语音控制</string>
+  <string-array name="ml_device_voice_ctrl">
+    <item>关闭</item>
+    <item>打开</item>
+  </string-array>
+  <string name="ml_device_standby">休眠唤醒</string>
+  <string-array name="ml_device_standby">
+    <item>关闭</item>
+    <item>打开</item>
+  </string-array>
+  <string name="ml_camera_distortioncalibration">畸變矯正</string>
+  <string-array name="ml_camera_distortioncalibration">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array>
+  <string name="ml_device_wireless">無線熱點</string>
+  <string-array name="ml_device_wireless">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array>
+  <string name="ml_device_wireless_info">無線熱點信息</string>
+  <string name="ml_device_wireless_info_ssid">熱點名:</string>
+  <string name="ml_device_wireless_info_pwd">密碼:</string>
+  <string name="ml_device_wireless_info_guide">按任意键退出WiFi</string>
+  <string name="ml_device_wireless_reset_title">是否重置無線熱點?</string>
+  <string name="ml_device_wireless_reset">重置無線熱點</string>
+  <string-array name="ml_device_wireless_reset">
+    <item>确认</item>
+    <item>取消</item>
+  </string-array>
+  <string name="ml_device_language">語言</string>
+  <string-array name="ml_device_language">
+    <item>English</item>
+    <item>繁體中文</item>
+    <item>日本語</item>
+    <item>한국의</item>
+    <item>Pусский</item>
+    <item>Deutsch</item>
+    <item>Français</item>
+    <item>Italiano</item>
+    <item>Español</item>
+    <item>Português</item>
+    <item>简体中文</item>    
+  </string-array>
+  <string name="ml_device_date_config">日期時間</string>
+  <string name="date_year">年</string>
+  <string name="date_month">月</string>
+  <string name="date_day">日</string>
+  <string name="ml_device_time_config">時間設置</string>
+  <string name="time_hour">時</string>
+  <string name="time_minute">分</string>
+  <string name="time_second">秒</string>
+  <string name="ml_device_datetime_format">時間格式</string>
+  <string-array name="ml_device_datetime_format">
+    <item>年/月/日</item>
+    <item>日/月/年</item>
+    <item>月/日/年</item>    
+  </string-array>
+  
+  <string name="ml_shutter_audio">快門聲音</string> 
+	  <string-array name="ml_shutter_audio">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array>  
+ <string name="ml_boot_audio">關機聲音</string> 
+	  <string-array name="ml_boot_audio">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array> 
+ <string name="ml_key_audio">按鍵聲音</string> 
+	  <string-array name="ml_key_audio">
+    <item>關閉</item>
+    <item>打開</item>
+  </string-array>   
+ <string name="ml_audio_level">音量</string> 
+	  <string-array name="ml_audio_level">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>    
+  </string-array>       
+	<string name="ml_device_voicesettings">聲音設定</string> 
+	  <string-array name="ml_device_voicesettings">
+    <item>快門聲音</item>
+    <item>關機聲音</item>
+    <item>按鍵聲音</item>
+    <item>音量</item>
+  </string-array> 
+    <string name="ml_device_voicestatus">聲音</string>
+  <string-array name="ml_device_voicestatus">
+    <item>關閉</item>
+    <item>30%</item>
+    <item>50%</item>
+    <item>80%</item>
+    <item>100%</item>
+  </string-array>
+   <string name="ml_device_resetfactory">重新設定</string>
+   <string name="ml_device_resetfactory_failed">恢复出厂设置失败</string>
+   <string name="ml_device_resetfactory_success">恢复出厂设置成功</string>
+  <string-array name="ml_device_resetfactory">
+    <item>否</item>
+    <item>是</item>
+  </string-array>
+
+   <string name="ml_device_resetselection">確認恢復出廠設置？</string>
+   <string name="ml_confirm_reboot">是否重啟？</string>
+   <string name="ml_device_format">格式化</string>
+  <string-array name="ml_device_format">
+    <item>否</item>
+    <item>是</item>     
+  </string-array>
+  <string name="ml_device_format_ing">請稍後</string>  
+	<string name="ml_device_format_over">完成</string> 
+	<string name="ml_reset_factory_over">Completed!</string>  
+  <string name="ml_device_format_doing">格式化中...</string>
+  <string name="ml_device_format_failed">格式化失敗</string>
+  <string name="ml_device_format_success">格式化成功</string>
+  <string name="ml_device_deviceinfo">設備信息</string>
+  <string-array name="ml_device_deviceinfo">
+    <item>V300</item>
+    <item>SunChip</item>
+    <item>V3.0</item>
+  </string-array>
+ <string name="ml_camera_fov">角度設置</string>
+  <string-array name="ml_camera_fov">
+    <item>關閉</item>
+    <item>寬</item>
+    <item>中</item>
+    <item>窄</item>
+  </string-array>  
+  <string name="ml_device_bootguide">Boot Guide</string>
+  <string-array name="ml_device_bootguide">
+    <item>Turn Off</item>
+    <item>Turn On</item>
+  </string-array>    
+ <string name="ml_quit_exit">按OK鍵退出</string>
+   <string name="ml_camera_wifiswitch">WIFI信息</string>
+   <string name="ml_camera_wifiswitch_ssid">WIFI名稱:  </string>
+   <string name="ml_camera_wifiswitch_passwd">WIFI密碼:  </string>
+   <string name="ml_camera_wifiswitch_tip">按上鍵退出WIFI</string>
+   <string name="ml_camera_wifiswitch_connect">WIFI连接成功</string>      
+  <string name="ml_prompt">提示</string>
+  <string name="ml_prompt_tf_null">未檢測到TF卡,請插入TF卡!</string>
+  <string name="ml_prompt_tf_full">TF卡存儲空間不足！</string>
+  <string name="ml_prompt_tf_fs_error">不支持的文件系統，是否格式化?</string>
+  <string name="ml_prompt_tf_speedclass_error">TF卡为低速卡，请更换!</string>
+  <string name="ml_prompt_no_file">無文件</string>
+  <string name="ml_prompt_bat_full">電池已充滿！</string>
+  <string name="ml_prompt_bat_low">電量低,禁止錄像/拍照，5s後關機!</string>
+  <string name="ml_prompt_auto_shutdown">5s後自動關機!</string>
+  <string name="ml_prompt_bat_forbid_work">電量低,禁止錄像/拍照!</string>
+  <string name="ml_prompt_forbid_audio">當前模式不支持錄音!</string>
+  <string name="ml_prompt_bat_charge">電量低於30%,請充電!</string>
+  <string name="ml_prompt_database_full">數據庫滿,請刪除舊的記錄!</string>
+  <string name="ml_prompt_camera_error">圖像採集異常,攝像頭將重新初始化!</string>
+  <string name="ml_prompt_rec_write_file_error">低速卡!</string>
+  <string name="ml_prompt_unsupported_func">當前分辨率或模式不支持!</string>
+  <string name="ml_prompt_unsupported_ise">长曝光模式下不支持畸变校正!</string>
+  <string name="ml_prompt_unsupported_shutter">畸变校正模式下不支持长曝光设置!</string>
+  <string name="ml_prompt_device_busy">設備忙!</string>
+  <string name="ml_prompt_unsupported_op">不支持該操作!</string>
+  <string name="ml_prompt_exception">系統配置異常，將恢復出廠設置!</string>
+  <string name="ml_prompt_delete_file">刪除此文件?</string>
+  <string name="ml_prompt_delete_file_yes">是</string>  
+  <string name="ml_prompt_delete_file_no">否</string>  
+  <string name="ml_prompt_videofile_error">視頻文件不完整，不能正常播放，是否刪除?</string>
+  <string name="ml_prompt_track_synthesis">轨迹合成中!</string>
+  <string name="ml_prompt_track_synthesis_done">轨迹合成完成!</string>
+  <string name="ml_prompt_track_synthesis_failed">轨迹合成失败!</string>
+  <string name="info_dialog">信息</string>
+  <string name="confirm">確定</string>
+  <string name="cancel">取消</string>
+  <string name="tl_playlist">請選擇播放文件</string>
+  <string name="tl_media_file">媒體文件</string>
+  <string name="delete_dialog">删除</string>
+  <string name="delete_info">確定刪除當前文件?</string>
+  <string name="tl_usb_charge">充電模式</string>
+  <string name="tl_usb_mass_storage">大容量存儲模式</string>
+  <string name="tl_usb_charging">充電模式</string>
+  <string name="tl_usb_connect">連接中</string>
+  <string name="tl_usb_webcam">攝像頭模式</string>
+  <string name="update_dialog_title">系統升級</string>
+  <string name="ml_prompt_ota_update">是否進行OTA升級?</string>
+   <string name="ml_device_deviceinfo_mode">產品型號:  </string>
+   <string name="ml_device_deviceinfo_version">版本資訊</string>
+  <string-array name="ml_device_deviceinfo_version">
+    <item>EK7000</item>
+    <item>171010FXV2hhfd</item>
+  </string-array>   
+   <string name="ml_device_deviceinfo_update">更新時間:  </string>
+   <string name="ml_device_deviceinfo_about">設備信息</string>
+   <string name="ml_device_deviceinfo_manufacturer">生產廠商:  </string>
+   <string name="ml_device_deviceinfo_manufacturer1">SunChip</string>
+   <string name="ml_device_deviceinfo_sd">SD卡</string>
+   <string name="ml_device_deviceinfo_sdformat">格式化</string>
+   <string name="ml_device_deviceinfo_no_sd">无SD卡</string>
+   <string name="ml_device_deviceinfo_sd_abnormal">存儲卡異常</string>
+   <string name="ml_device_deviceinfo_storage_space">存儲空間: </string>
+   <string name="ml_device_deviceinfo_content">V316 TP SDV</string>
+   <string name="ml_device_deviceinfo_product_version">V3.0</string>
+   <string name="ml_media_file_info">媒體文件信息</string>
+   <string name="ml_video_file_length">視頻長度: </string>
+   <string name="ml_video_file_resolution">視頻分辨率: </string>
+   <string name="ml_file_create_time">創建時間: </string>
+   <string name="ml_file_name">文件名: </string>
+   <string name="ml_file_size">文件大小: </string>
+   <string name="ml_video_file_fps">視頻幀率: </string>
+   <string name="ml_video_file_bps">視頻碼率: </string>
+   <string name="ml_pic_file_resolution">圖片分辨率: </string>
+   <string name="ml_ota_install_packet">数据包安装中</string>
+   <string name="ml_ota_install_notice">请勿将设备断电</string>
+   <string name="ml_ota_install_failed">数据包安装失败,准备重启</string>
+   <string name="ml_ota_install_finsh">安装完成，重启后即完成升级</string>
+   <string name="ml_ota_instal_check_md5_fail">检测固件MD5值失败，固件无效</string>
+   <string name="ml_ota_instal_found_img_fail">暂未检测到固件存在</string>  
+   <string name="ml_warn_wait">請稍等</string>     
+    <string name="ml_pic_file_saving">保存中... </string>
+   <string name="all_letters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+   <string name="all_digit_num">0123456789</string>
+   <string name="all_symbol">!@#$%^*():;"',/?[]</string>
+</resources>
+

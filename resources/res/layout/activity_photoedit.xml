@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/top_title" android:background="@drawable/top_title_bar_bg" android:layout_width="match_parent" android:layout_height="@dimen/title_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/title_text" android:textColor="@color/black" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerInParent="true"/>
+        <Button android:textColor="@color/black_green_text_color" android:id="@+id/back_btn" android:background="@color/transparent" android:layout_width="@dimen/back_btn_width" android:layout_height="@dimen/back_btn_height" android:layout_marginLeft="@dimen/back_btn_marginleft" android:drawableLeft="@drawable/back_green_crow" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/img_bg" android:layout_width="match_parent" android:layout_height="100dp" android:layout_below="@+id/top_title">
+        <ImageView android:id="@+id/img_origin" android:background="@drawable/bg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <HorizontalScrollView android:id="@+id/scrollview" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0px" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <GridView android:gravity="center" android:id="@+id/img_demo" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchMode="spacingWidthUniform" android:numColumns="auto_fit"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/scrollview" android:layout_below="@+id/img_bg">
+        <Button android:textSize="@dimen/midtips2_bottom_textsize" android:textColor="@color/black_white_text_color" android:id="@+id/btn_save" android:background="@drawable/midtips2_btn_bg" android:layout_width="@dimen/midtips2_btn_width" android:layout_height="@dimen/midtips2_btn_height" android:layout_marginRight="30dp" android:text="@string/edit_photo_saved" android:lines="2"/>
+        <Button android:textSize="@dimen/midtips2_bottom_textsize" android:textColor="@color/black_white_text_color" android:id="@+id/btn_share" android:background="@drawable/midtips2_btn_bg" android:layout_width="@dimen/midtips2_btn_width" android:layout_height="@dimen/midtips2_btn_height" android:text="@string/edit_photo_share_now" android:lines="2"/>
+    </LinearLayout>
+</RelativeLayout>

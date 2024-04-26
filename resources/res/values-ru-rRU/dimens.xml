@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="back_btn_width">120dp</dimen>
+    <dimen name="back_wifiseletct_width">74dp</dimen>
+    <dimen name="marginLeft">10dp</dimen>
+</resources>

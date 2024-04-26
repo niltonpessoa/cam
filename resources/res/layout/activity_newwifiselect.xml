@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/newwifiselect_bg" android:scaleType="centerCrop"/>
+    <RelativeLayout android:id="@+id/top_title" android:background="@color/main_color" android:layout_width="match_parent" android:layout_height="@dimen/title_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/title_text" android:textColor="@color/black" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_select" android:layout_centerInParent="true"/>
+        <Button android:id="@+id/back_btn" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="@dimen/back_btn_height" android:layout_marginLeft="@dimen/back_btn_marginleft" android:text="" android:drawableLeft="@drawable/wifi_back_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/btns" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="80dp" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/midtips2_bottom_textsize" android:textColor="@drawable/black_white_text_color" android:id="@+id/btn_shoot" android:background="@drawable/midtips2_btn_bg" android:layout_width="@dimen/midtips2_btn_width" android:layout_height="@dimen/midtips2_btn_height" android:layout_marginRight="30dp" android:text="@string/main_video"/>
+        <Button android:textSize="@dimen/midtips2_bottom_textsize" android:textColor="@drawable/black_white_text_color" android:id="@+id/btn_media" android:background="@drawable/midtips2_btn_bg" android:layout_width="@dimen/midtips2_btn_width" android:layout_height="@dimen/midtips2_btn_height" android:text="@string/main_file"/>
+    </LinearLayout>
+    <TextView android:textSize="17dp" android:textColor="@color/black" android:id="@+id/tv_curssid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="180dp" android:text="X10000_xxxx" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xforce.v5.xdvpro.widget.viewpagerindicator.HackyViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/photos_top_view" android:background="@color/lan_bottom_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/title_height">
+        <Button android:textSize="@dimen/back_btn_textsize" android:textColor="@color/white_green_text_color" android:id="@+id/back_btn" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableLeft="@drawable/back_green_crow" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <Button android:id="@+id/btn_filter" android:background="@drawable/filter_btn_selector" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/photos_bottom_view" android:background="@color/lan_bottom_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/title_height" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/back_btn_textsize" android:textColor="@color/white" android:id="@+id/photos_bottom_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

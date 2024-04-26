@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="opt_record_bar_height">60dp</dimen>
+    <dimen name="opt_record_seg_width">315dp</dimen>
+    <dimen name="video_por_opt_btn_height">38dp</dimen>
+</resources>

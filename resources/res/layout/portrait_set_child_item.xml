@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/por_set_item_bg" android:background="@drawable/setting_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/por_set_item_height">
+        <TextView android:textSize="@dimen/setting_child_item_text_size" android:textColor="@color/item_text" android:id="@+id/por_set_item_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setting_child_item_leftpadding" android:text="录像质量" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/por_set_item_check" android:background="@drawable/video_por_wb_tick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setting_child_item_leftpadding" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="opt_record_bar_height">56dp</dimen>
+    <dimen name="opt_record_seg_width">320dp</dimen>
+    <dimen name="video_por_middle_txt_height">25dp</dimen>
+    <dimen name="video_por_middle_txt_size">18sp</dimen>
+    <dimen name="video_por_opt_btn_height">33dp</dimen>
+    <dimen name="video_por_opt_btn_mar_l_r">67dp</dimen>
+    <dimen name="video_por_opt_btn_mar_top">60dp</dimen>
+    <dimen name="video_por_opt_view_mar_top">3dp</dimen>
+</resources>

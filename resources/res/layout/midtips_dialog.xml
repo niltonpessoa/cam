@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:background="@drawable/round_conner_4_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/midtips_margin" android:layout_marginRight="@dimen/midtips_margin">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/midtips_content_hight">
+        <TextView android:textSize="@dimen/midtips_top_textsize" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/midtips_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="AWCDR_fa0a" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/midtips_bottom_textsize" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/midtips_content" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/pwd_error" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/video_down_item" android:layout_width="match_parent" android:layout_height="@dimen/confirm_dialog_btn_height">
+        <Button android:textSize="@dimen/title_text" android:textColor="@color/main_2_pressed_text_color" android:id="@+id/midtips_cancel" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/confirm_dialog_btn_height" android:text="@string/cancel" android:layout_weight="1"/>
+        <View android:id="@+id/midtips_sepview" android:background="#cccccc" android:visibility="gone" android:layout_width="1dp" android:layout_height="match_parent"/>
+        <Button android:textSize="@dimen/title_text" android:textColor="@color/main_2_pressed_text_color" android:id="@+id/midtips_confirm" android:background="@color/transparent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/confirm_dialog_btn_height" android:text="@string/confirm" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

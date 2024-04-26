@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="acuitys">
+        <item>@string/acuity_0</item>
+        <item>@string/acuity_1</item>
+        <item>@string/acuity_2</item>
+    </array>
+    <array name="auto_shutdown_modes">
+        <item>@string/auto_shutdown_0</item>
+        <item>@string/auto_shutdown_1</item>
+        <item>@string/auto_shutdown_2</item>
+        <item>@string/auto_shutdown_3</item>
+    </array>
+    <array name="boot_capture_modes">
+        <item>@string/boot_capture_mode_0</item>
+        <item>@string/boot_capture_mode_1</item>
+        <item>@string/boot_capture_mode_2</item>
+        <item>@string/boot_capture_mode_3</item>
+    </array>
+    <array name="boot_modes">
+        <item>@string/boot_mode_0</item>
+        <item>@string/boot_mode_1</item>
+    </array>
+    <array name="capture_autos">
+        <item>@string/capture_auto_0</item>
+        <item>@string/capture_auto_1</item>
+        <item>@string/capture_auto_2</item>
+        <item>@string/capture_auto_3</item>
+        <item>@string/capture_auto_4</item>
+        <item>@string/capture_auto_5</item>
+    </array>
+    <array name="capture_timings">
+        <item>@string/capture_timing_0</item>
+        <item>@string/capture_timing_1</item>
+        <item>@string/capture_timing_2</item>
+        <item>@string/capture_timing_3</item>
+        <item>@string/capture_timing_4</item>
+    </array>
+    <array name="capture_trajectorys">
+        <item>@string/capture_trajectory_0</item>
+        <item>@string/capture_trajectory_1</item>
+        <item>@string/capture_trajectory_2</item>
+        <item>@string/capture_trajectory_3</item>
+    </array>
+    <array name="exposures">
+        <item>@string/exposure_0</item>
+        <item>@string/exposure_1</item>
+        <item>@string/exposure_2</item>
+        <item>@string/exposure_3</item>
+        <item>@string/exposure_4</item>
+        <item>@string/exposure_5</item>
+        <item>@string/exposure_6</item>
+    </array>
+    <array name="files_array_modes">
+        <item>@string/boot_mode_0</item>
+        <item>@string/boot_mode_1</item>
+    </array>
+    <array name="isos">
+        <item>@string/iso_0</item>
+        <item>@string/iso_1</item>
+        <item>@string/iso_2</item>
+        <item>@string/iso_3</item>
+        <item>@string/iso_4</item>
+        <item>@string/iso_5</item>
+    </array>
+    <array name="lights">
+        <item>@string/light_0</item>
+        <item>@string/light_1</item>
+        <item>@string/light_2</item>
+    </array>
+    <array name="photo_bitrate_qualitys">
+        <item>@string/photo_bitrate_quality0</item>
+        <item>@string/photo_bitrate_quality1</item>
+        <item>@string/photo_bitrate_quality2</item>
+        <item>@string/photo_bitrate_quality3</item>
+        <item>@string/photo_bitrate_quality4</item>
+    </array>
+    <array name="photo_qualitys">
+        <item>@string/photo_quality_0</item>
+        <item>@string/photo_quality_1</item>
+        <item>@string/photo_quality_2</item>
+    </array>
+    <array name="photo_resolutions">
+        <item>@string/photo_resolution_0</item>
+        <item>@string/photo_resolution_1</item>
+        <item>@string/photo_resolution_2</item>
+        <item>@string/photo_resolution_3</item>
+        <item>@string/photo_resolution_4</item>
+    </array>
+    <array name="photo_time_tips">
+        <item>@string/record_time_tips_0</item>
+        <item>@string/record_time_tips_1</item>
+        <item>@string/record_time_tips_2</item>
+        <item>@string/record_time_tips_3</item>
+    </array>
+    <array name="record_bitrate">
+        <item>@string/video_quality_0</item>
+        <item>@string/video_quality_1</item>
+        <item>@string/video_quality_2</item>
+    </array>
+    <array name="record_delay_times">
+        <item>@string/record_delay_time_0</item>
+        <item>@string/record_delay_time_1</item>
+        <item>@string/record_delay_time_2</item>
+        <item>@string/record_delay_time_3</item>
+        <item>@string/record_delay_time_4</item>
+        <item>@string/record_delay_time_5</item>
+        <item>@string/record_delay_time_6</item>
+    </array>
+    <array name="record_durations">
+        <item>@string/record_duration_0</item>
+        <item>@string/record_duration_1</item>
+        <item>@string/record_duration_2</item>
+        <item>@string/record_duration_3</item>
+    </array>
+    <array name="record_quality">
+        <item>@string/record_quality0</item>
+        <item>@string/record_quality1</item>
+        <item>@string/record_quality2</item>
+        <item>@string/record_quality3</item>
+        <item>@string/record_quality4</item>
+        <item>@string/record_quality5</item>
+        <item>@string/record_quality6</item>
+    </array>
+    <array name="record_time_tips">
+        <item>@string/record_time_tips_0</item>
+        <item>@string/record_time_tips_1</item>
+        <item>@string/record_time_tips_2</item>
+        <item>@string/record_time_tips_3</item>
+    </array>
+    <array name="recorder_delaytime">
+        <item>@string/record_delaytime0</item>
+        <item>@string/record_delaytime1</item>
+        <item>@string/record_delaytime2</item>
+        <item>@string/record_delaytime3</item>
+        <item>@string/record_delaytime4</item>
+        <item>@string/record_delaytime5</item>
+        <item>@string/record_delaytime6</item>
+    </array>
+    <array name="screen_protections">
+        <item>@string/screen_protection_0</item>
+        <item>@string/screen_protection_1</item>
+        <item>@string/screen_protection_2</item>
+        <item>@string/screen_protection_3</item>
+    </array>
+    <array name="setting_group_0">
+        <item>@string/setting_group_0_0</item>
+        <item>@string/setting_group_0_1</item>
+        <item>@string/setting_group_0_2</item>
+        <item>@string/setting_group_0_3</item>
+        <item>@string/setting_group_0_4</item>
+    </array>
+    <array name="setting_group_1">
+        <item>@string/setting_group_1_0</item>
+        <item>@string/setting_group_1_1</item>
+        <item>@string/setting_group_1_2</item>
+        <item>@string/setting_group_1_3</item>
+    </array>
+    <array name="setting_group_2">
+        <item>@string/setting_group_2_0</item>
+        <item>@string/setting_group_2_1</item>
+        <item>@string/setting_group_2_2</item>
+        <item>@string/setting_group_2_3</item>
+        <item>@string/setting_group_2_4</item>
+        <item>@string/setting_group_2_5</item>
+        <item>@string/setting_group_2_6</item>
+        <item>@string/setting_group_2_7</item>
+        <item>@string/setting_group_2_8</item>
+    </array>
+    <array name="setting_group_3">
+        <item>@string/setting_group_3_0</item>
+        <item>@string/setting_group_3_1</item>
+        <item>@string/setting_group_3_2</item>
+        <item>@string/setting_group_3_3</item>
+    </array>
+    <array name="setting_group_icons">
+        <item>@drawable/setting_group_icon_0</item>
+        <item>@drawable/setting_group_icon_1</item>
+        <item>@drawable/setting_group_icon_2</item>
+        <item>@drawable/setting_group_icon_3</item>
+    </array>
+    <array name="setting_group_names">
+        <item>@string/setting_group_0</item>
+        <item>@string/setting_group_1</item>
+        <item>@string/setting_group_2</item>
+        <item>@string/setting_group_3</item>
+    </array>
+    <array name="setting_group_tag_0">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="setting_group_tag_1">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </array>
+    <array name="setting_group_tag_2">
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>3</item>
+    </array>
+    <array name="setting_group_tag_3">
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+        <item>4</item>
+    </array>
+    <array name="setting_group_value_0">
+        <item>@string/record_quality0</item>
+        <item>@string/photo_quality_0</item>
+        <item />
+        <item />
+        <item />
+        <item />
+    </array>
+    <array name="setting_group_value_1">
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </array>
+    <array name="setting_group_value_2">
+        <item>1</item>
+        <item />
+        <item />
+        <item />
+        <item>@null</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </array>
+    <array name="setting_group_value_3">
+        <item />
+        <item />
+        <item />
+        <item />
+    </array>
+    <array name="slow_record_video_sizes">
+        <item>@string/slow_record_video_size_0</item>
+        <item>@string/slow_record_video_size_1</item>
+    </array>
+    <array name="water_marks">
+        <item>@string/water_mark_0</item>
+        <item>@string/water_mark_1</item>
+        <item>@string/water_mark_2</item>
+        <item>@string/water_mark_3</item>
+    </array>
+    <array name="white_balances">
+        <item>@string/white_balance_0</item>
+        <item>@string/white_balance_1</item>
+        <item>@string/white_balance_2</item>
+        <item>@string/white_balance_3</item>
+        <item>@string/white_balance_4</item>
+    </array>
+</resources>

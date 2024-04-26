@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:versionCode="67" android:versionName="1.0.67" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.xforce.v5.xdvpro" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="33"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/logo" android:name="com.xforce.v5.xdvpro.view.XFApp" android:allowBackup="true" android:supportsRtl="true" android:resizeableActivity="false" android:networkSecurityConfig="@xml/network_security_config" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+        <activity android:name="com.xforce.v5.xdvpro.view.MainActivity" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1WiFiSelectActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1NewWiFiSelectActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1MainFragmentActivity" android:exported="false" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.XFTPMainFragmentActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1PlayMp4Activity" android:exported="false" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1PlayDevMp4Activity" android:exported="false" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1ShowPhotosActivity" android:exported="false"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.XFTPShowPhotosActivity" android:exported="false"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.HSDownloadActivtiy" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.HSTPDownloadActivtiy" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1WiFiPwdSetActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.XFWiFiPwdSetActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1InfoActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1PhotoEditActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.V3H3.XFTPV3H3MainFragmentActivity" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:name="com.xforce.v5.xdvpro.ui.X1NewPlayVideoActivity" android:exported="false" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.xforce.v5.xdvpro.fileProvider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+    </application>
+</manifest>

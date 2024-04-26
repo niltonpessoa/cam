@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:background="#55000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.exoplayer2.ui.PlayerView android:id="@+id/video_view" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" ptr:use_controller="false"/>
+    <ProgressBar android:id="@+id/loading" android:layout_width="50dp" android:layout_height="50dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/progressbar_loading_type" android:layout_centerInParent="true"/>
+    <RelativeLayout android:id="@+id/top" android:background="#55000000" android:layout_width="match_parent" android:layout_height="57dp" android:layout_alignParentTop="true">
+        <Button android:textSize="@dimen/back_btn_textsize" android:textColor="@color/white_green_text_color" android:id="@+id/back" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableLeft="@drawable/back_green_crow" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="15dp" android:textColor="#fafffa" android:id="@+id/videoname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20190529_20243201.JPG" android:layout_toRightOf="@+id/back" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/controller" android:background="@drawable/playvideo_round_conner_bg" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@+id/txt" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13dp" android:textColor="#fafffa" android:id="@+id/time_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00"/>
+            <TextView android:textSize="13dp" android:textColor="#fafffa" android:id="@+id/time_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <SeekBar android:id="@+id/seekbar" android:paddingLeft="10dp" android:paddingRight="10dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="25dp" android:maxHeight="2dp" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/dec_seek" android:minHeight="2dp" android:thumb="@drawable/seek_thumb" android:layout_below="@+id/txt"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/seekbar">
+            <Button android:id="@+id/playback" android:background="@drawable/playvideo_btn_start_selector" android:layout_width="40dp" android:layout_height="40dp" android:layout_centerInParent="true"/>
+            <Button android:id="@+id/fallback" android:background="@drawable/playvideo_btn_fallback_selector" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="20dp" android:layout_toLeftOf="@+id/playback" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/playback"/>
+            <Button android:id="@+id/forward" android:background="@drawable/playvideo_btn_forward_selector" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_toRightOf="@+id/playback" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/playback"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

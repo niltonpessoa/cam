@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    <style name="ExoMediaButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/exo_media_button_width</item>
+        <item name="android:layout_height">@dimen/exo_media_button_height</item>
+    </style>
+    <style name="ExoMediaButton.FastForward">
+        <item name="android:src">@drawable/exo_controls_fastforward</item>
+        <item name="android:contentDescription">@string/exo_controls_fastforward_description</item>
+    </style>
+    <style name="ExoMediaButton.Next">
+        <item name="android:src">@drawable/exo_controls_next</item>
+        <item name="android:contentDescription">@string/exo_controls_next_description</item>
+    </style>
+    <style name="ExoMediaButton.Pause">
+        <item name="android:src">@drawable/exo_controls_pause</item>
+        <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+    </style>
+    <style name="ExoMediaButton.Play">
+        <item name="android:src">@drawable/exo_controls_play</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style>
+    <style name="ExoMediaButton.Previous">
+        <item name="android:src">@drawable/exo_controls_previous</item>
+        <item name="android:contentDescription">@string/exo_controls_previous_description</item>
+    </style>
+    <style name="ExoMediaButton.Rewind">
+        <item name="android:src">@drawable/exo_controls_rewind</item>
+        <item name="android:contentDescription">@string/exo_controls_rewind_description</item>
+    </style>
+    <style name="ExoMediaButton.Shuffle">
+        <item name="android:src">@drawable/exo_controls_shuffle</item>
+        <item name="android:contentDescription">@string/exo_controls_shuffle_description</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+    </style>
+    <style name="TextAppearance.TabPageIndicator">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+    </style>
+    <style name="Widget.IconPageIndicator">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.Support.CoordinatorLayout">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+    <style name="Widget.TabPageIndicator">
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingRight">22dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="activityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+    <style name="bottom_in_dialog_anim">
+        <item name="android:windowEnterAnimation">@anim/bottom_dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/bottom_dialog_exit_anim</item>
+    </style>
+    <style name="confirm_dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+    </style>
+    <style name="file_opt_dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/tabbar_item_text</item>
+        <item name="android:textColor">@color/tabbar_item_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tabbar_height</item>
+        <item name="android:layout_marginTop">@dimen/tabbar_item_martop</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="multitop_dialog">
+        <item name="android:windowBackground">@color/lan_bottom_bg_color</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@style/top_in_dialog_anim</item>
+        <item name="android:background">@color/lan_bottom_bg_color</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+    </style>
+    <style name="portrait_set_dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+    </style>
+    <style name="portrait_set_item">
+        <item name="android:textSize">@dimen/video_por_wb_item_txsize</item>
+        <item name="android:textColor">@color/item_text</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/portrait_setting_bg</item>
+        <item name="android:paddingLeft">@dimen/video_por_wb_list_item_padding</item>
+        <item name="android:paddingRight">@dimen/video_por_wb_list_item_padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="toast_view_anim">
+        <item name="android:windowEnterAnimation">@anim/toast_in_from_top</item>
+        <item name="android:windowExitAnimation">@anim/toast_out_to_top</item>
+    </style>
+    <style name="top_in_dialog_anim">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_top</item>
+    </style>
+    <style name="video_lan_set_bottom">
+        <item name="android:textSize">@dimen/video_lanopt_set_down_item_txsize</item>
+        <item name="android:textColor">@color/video_lan_item_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/transparent_bg</item>
+        <item name="android:paddingTop">@dimen/video_lanopt_set_down_item_padtop</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="video_lanopt_dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@style/bottom_in_dialog_anim</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:bottomOffset">0dp</item>
+    </style>
+    <style name="video_por_wb_set_item">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:paddingLeft">@dimen/video_por_wb_list_item_padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>

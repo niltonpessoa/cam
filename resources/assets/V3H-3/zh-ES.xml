@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="tl_shutdown">Parar</string>
+  <string name="tl_sd_mount">Tarjeta SD insertada</string>
+  <string name="tl_sd_unmount">Tarjeta SD no insertada</string>
+  <string name="tl_model_select">Selección de modo</string>
+  <string-array name="mode_list">
+    <item>mode_normal_rec</item>
+    <item>mode_slowly_rec</item>
+    <item>mode_loop_rec</item>
+    <item>mode_timelapse_rec</item>
+    <item>mode_track_rec</item>
+    <item>mode_normal_pic</item>
+    <item>mode_auto_pic</item>
+    <item>mode_continue_pic</item>
+    <item>mode_timing_pic</item>
+  </string-array>
+  <string name="mode_normal_rec">Video</string>
+  <string name="mode_slowly_rec">Slowly</string>
+  <string name="mode_loop_rec">Bucle de grabación</string>
+  <string-array name="mode_loop_rec">
+    <item>Desactivada</item>
+    <item>2 min</item>
+    <item>3 min</item>
+    <item>5 min</item>   
+  </string-array>  
+  <string name="mode_timelapse_rec">Lapse</string>
+  <string name="mode_track_rec">Track</string>
+  <string name="mode_normal_pic">Photo</string>
+  <string name="mode_auto_pic">Auto</string>
+  <string name="mode_continue_pic">Burst</string>
+  <string name="mode_timing_pic">Intervalo entre fotos</string>
+   <string-array name="mode_timing_pic">
+    <item>2s</item>
+    <item>3s</item>
+    <item>5s</item> 
+    <item>10s</item>   	
+    <item>20s</item>
+    <item>30s</item>
+    <item>60s</item>
+  </string-array>   
+ <string name="time_osd_mode">Fecha de imp.</string>
+   <string-array name="time_osd_mode">
+    <item>Desactivada</item>
+    <item>Fecha</item>
+    <item>Fecha/Hora</item>
+  </string-array>  
+ <string name="ml_shutter">Exposición</string>
+   <string-array name="ml_shutter">
+    <item>-2.0</item>
+    <item>-1.7</item>
+    <item>-1.3</item>
+    <item>-1.0</item>
+    <item>-0.7</item>
+    <item>-0.3</item>
+    <item>0.0</item>
+    <item>+0.3</item>
+    <item>+0.7</item> 
+    <item>+1.0</item>
+    <item>+1.3</item>
+    <item>+1.7</item>
+    <item>+2.0</item>           
+  </string-array>   
+ <string name="three_continue_mode">Secuencia de fotos</string>
+   <string-array name="three_continue_mode">
+    <item>3 fotos</item>
+  </string-array>  
+ <string name="ml_continue_timing_mode">Disparo contínuo</string>
+   <string-array name="ml_continue_timing_mode">
+    <item>Desactivada</item>
+    <item>Activada</item>  
+  </string-array>  
+   <string-array name="function_list">
+    <item>function_mode</item>
+    <item>function_media</item>
+    <item>function_setting</item>
+    <item>function_return</item>
+  </string-array>  
+  <string name="function_mode">Mode</string>
+  <string name="function_media">Media</string>
+  <string name="function_setting">SETTINGS</string>
+  <string name="function_return">Return</string>    
+  <string name="ml_trackrec_resolution">Video resolution</string>
+  <string-array name="ml_trackrec_resolution">
+    <item>1080P30FPS</item>
+  </string-array>
+  <string name="ml_trackrec_length">Video length</string>
+  <string-array name="ml_trackrec_length">
+    <item>5s</item>
+    <item>10s</item>
+    <item>15s</item>
+  </string-array>
+  <string name="ml_track_interval">Track interval</string>
+  <string-array name="ml_track_interval">
+    <item>High</item>
+    <item>Middle</item>
+    <item>Low</item>
+  </string-array>
+  <string name="ml_record_resolution">Resolución vídeo</string>
+  <string-array name="ml_record_resolution">
+    <item>4K30FPS</item> 
+    <item>2.7K30FPS</item> 
+    <item>1080P60FPS</item>
+    <item>1080P30FPS</item>
+    <item>720P120FPS</item> 
+    <item>720P60FPS</item>
+    <item>720P30FPS</item>
+  </string-array>
+  <string name="ml_setting_first_colwidth">110</string>
+  <string name="ml_setting_second_colwidth">110</string>
+  <string name="ml_setting_third_colwidth">34</string>
+  <string name="ml_modelselect_item_width">106</string>
+  <string name="ml_modelselect_item_height">90</string>
+  <string name="ml_voicectrl_list_item_height">50</string>
+  <string name="ml_record_antishake">Antivibración</string>
+  <string name="ml_record_encodingtype">Tipo de codificación de vídeo</string>
+  <string-array name="ml_record_encodingtype">
+    <item>H264</item>
+    <item>H265</item>
+  </string-array>
+  <string name="ml_record_audio">Sonido del vídeo</string>
+  <string-array name="ml_record_audio">
+    <item>Desactivar</item>
+    <item>Activar</item>
+  </string-array>
+  <string name="ml_record_eis">Estabilización electrónica de la imagen</string>
+  <string-array name="ml_record_eis">
+    <item>Desactivar</item>
+    <item>Activar</item>
+  </string-array>
+  <string name="ml_record_interval">Intervalo de grabación</string>
+  <string-array name="ml_record_interval">
+    <item>0.5s</item>
+    <item>1s</item>
+    <item>2s</item>
+    <item>5s</item>
+    <item>10s</item>
+    <item>30s</item>
+    <item>60s</item>
+  </string-array>
+  <string name="ml_record_length">Duración de vídeo</string>
+  <string-array name="ml_record_length">
+    <item>2 min</item>
+    <item>3 min</item>
+    <item>5 min</item>
+  </string-array>
+  <string name="ml_record_slowmotion">Fotografía lenta</string>
+  <string-array name="ml_record_slowmotion">
+    <item>1080P 4X</item>
+    <item>1080P 2X</item>
+    <item>720P 8X</item>
+    <item>720P 4X</item>
+  </string-array>
+  <string name="ml_timelapse_resolution">Resolución del vídeo</string>
+  <string-array name="ml_timelapse_resolution">
+    <item>4K</item>
+    <item>2.7K</item>
+    <item>1080P</item>
+    <item>720P</item>
+  </string-array>
+  <string name="ml_photo_resolution">Resolución</string>
+  <string-array name="ml_photo_resolution">
+    <item>16M</item>
+    <item>13M</item>
+    <item>8M</item>
+  </string-array>
+  <string name="ml_photo_formate">Image Format</string>
+  <string-array name="ml_photo_formate">
+    <item>JPEG</item>
+    <item>JPEG+RAW</item>
+  </string-array>
+  <string name="ml_photo_timewater">Marca de agua de foto</string>
+  <string name="ml_photo_countdown">Cuenta atrás</string>
+  <string-array name="ml_photo_countdown">
+    <item>3s</item>
+    <item>5s</item>
+    <item>10s</item>
+    <item>20s</item>
+  </string-array>
+  <string name="ml_photo_interval">Intervalo de disparo</string>
+  <string-array name="ml_photo_interval">
+    <item>3s</item>
+    <item>10s</item>
+    <item>15s</item>
+    <item>20s</item>
+    <item>30s</item>
+  </string-array>
+  <string name="ml_photo_freq">Frecuencia de disparo</string>
+  <string-array name="ml_photo_freq">
+    <item>3P/s</item>
+    <item>5P/s</item>
+    <item>10P/s</item>
+  </string-array>
+  <string name="ml_camera_metering">Modo de medición</string>
+  <string-array name="ml_camera_metering">
+    <item>Medición media</item>
+    <item>Medición al centro</item>
+    <item>Medición puntual</item>
+    <item>Medición matricial</item>
+  </string-array>
+  <string name="ml_camera_sharpness">Acutancia</string>
+  <string-array name="ml_camera_sharpness">
+    <item>Alta</item>
+    <item>Media</item>
+    <item>Baja</item>
+  </string-array>
+   <string name="ml_video_quality">Calidad de vídeo</string>
+  <string-array name="ml_video_quality">
+    <item>Alta</item>
+    <item>Media</item>
+    <item>Baja</item>
+  </string-array>
+   <string name="ml_video_shutter">Obturador</string>
+  <string-array name="ml_video_shutter">
+    <item>Automático</item>
+    <item>1/240s</item>
+    <item>1/120s</item>
+    <item>1/60s</item>
+    <item>1/30s</item>
+  </string-array>
+   <string name="ml_photo_shutter">Obturador</string>
+  <string-array name="ml_photo_shutter">
+    <item>Automático</item>
+    <item>2s</item>
+    <item>5s</item>
+    <item>10s</item>
+    <item>15s</item>
+    <item>20s</item>
+    <item>30s</item>
+  </string-array>
+  <string name="ml_camera_iso">Sensibilidad</string>
+  <string-array name="ml_camera_iso">
+    <item>Automático</item>
+    <item>100</item>
+    <item>200</item>
+    <item>400</item>
+    <item>800</item>
+    <item>1600</item>
+    <item>3200</item>
+    <item>6400</item>
+  </string-array>
+  <string name="ml_video_length">Duración de víde</string>
+  <string-array name="ml_video_length">
+    <item>N/A</item>
+    <item>6s</item>
+    <item>8s</item>
+    <item>10s</item>
+    <item>20s</item>
+    <item>30s</item>
+    <item>60s</item>
+    <item>120s</item>
+  </string-array>
+   <string name="ml_photo_dramashot">Fotografía con rastreo</string>
+  <string-array name="ml_photo_dramashot">
+    <item>Desactivar</item>
+    <item>3P/S</item>
+    <item>5P/S</item>
+    <item>10P/S</item>
+  </string-array>
+  <string name="ml_camera_exposure">Configuración de la exposición</string>
+  <string-array name="ml_camera_exposure">
+    <item>-3</item>
+    <item>-2</item>
+    <item>-1</item>
+    <item>0</item>     
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <string name="ml_camera_whitebalance">Balance de blancos</string>
+  <string-array name="ml_camera_whitebalance">
+    <item>Auto</item> 
+    <item>Soleado</item>
+    <item>Nublado</item>
+    <item>Luz incandescente</item>
+    <item>Fluorescente</item>
+  </string-array>
+   <string name="ml_camera_imagerotation">Girar 180</string>
+  <string-array name="ml_camera_imagerotation">
+    <item>On</item>
+    <item>Off</item>
+  </string-array>
+   <string name="ml_camera_lightsourcefrequency">Frecuencia</string>
+  <string-array name="ml_camera_lightsourcefrequency">
+    <item>50Hz</item>
+    <item>60Hz</item>
+    <item>Automático</item>
+  </string-array>
+  <string name="ml_camera_ledindicator">Indicador LED</string>
+  <string-array name="ml_camera_ledindicator">
+    <item>Desactivar</item>
+    <item>Activar</item>
+  </string-array>
+   <string name="ml_camera_autoscreensaver">Auto LCD Aus</string>
+  <string-array name="ml_camera_autoscreensaver">
+    <item>Off</item>
+    <item>1 min</item>
+    <item>3 min</item> 
+    <item>5 min</item>
+  </string-array> 
+   <string name="ml_camera_timedshutdown">Ahorro energía</string>
+  <string-array name="ml_camera_timedshutdown">
+    <item>Off</item>
+    <item>1 min</item>
+    <item>3 min</item> 
+    <item>5 min</item>
+  </string-array>
+  <string name="ml_camera_timewatermark">Marca de agua temporal</string>
+  <string-array name="ml_camera_timewatermark">
+    <item>Desactivar</item>
+    <item>Activar</item>
+  </string-array>
+  <string name="ml_device_beep">Configuración de tono</string>
+  <string-array name="ml_device_beep">
+    <item>Alta</item>
+    <item>Media</item>
+    <item>Baja</item>
+    <item>Desactivar</item>
+  </string-array>
+  <string name="ml_device_voice_ctrl_list">Voice Ctrl List</string>
+    <string-array name="ml_device_voice_ctrl_list">
+    <item>XiaoZhi begin to record</item>
+    <item>XiaoZhi stop recording</item>
+    <item>XiaoZhi begin to take picture</item>
+    <item>XiaoZhi begin to take picture continuously</item>
+    <item>XiaoZhi power off</item>
+    <item>……</item>
+  </string-array>
+  <string name="ml_device_voice_ctrl">Voice Ctrl</string>
+  <string-array name="ml_device_voice_ctrl">
+    <item>Turn Off</item>
+    <item>Turn On</item>
+  </string-array>
+  <string name="ml_device_standby">Sleep wake up</string>
+  <string-array name="ml_device_standby">
+    <item>Turn 0ff</item>
+    <item>Turn On</item>
+  </string-array>
+  <string name="ml_camera_distortioncalibration">Corrección de distorsiones</string>
+  <string-array name="ml_camera_distortioncalibration">
+    <item>Desactivar</item>
+    <item>Activar</item>
+  </string-array>
+  <string name="ml_device_wireless">Punto de acceso</string>
+  <string-array name="ml_device_wireless">
+    <item>Desactivar</item>
+    <item>Activar</item>
+  </string-array>
+  <string name="ml_device_wireless_info">Info. de punto de acceso</string>
+  <string name="ml_device_wireless_info_ssid">Nombre de punto de acceso:</string>
+  <string name="ml_device_wireless_info_pwd">Contraseña:</string>
+  <string name="ml_device_wireless_info_guide">Press any key to exit Wi-Fi</string>
+  <string name="ml_device_wireless_reset_title">¿Restablecer punto de acceso ahora?</string>
+  <string name="ml_device_wireless_reset">Restablecer punto de acceso</string>
+  <string-array name="ml_device_wireless_reset">
+    <item>Confirmación</item>
+    <item>Cancelar</item>
+  </string-array>
+  <string name="ml_device_language">Idioma</string>
+  <string-array name="ml_device_language">
+    <item>English</item>
+    <item>繁體中文</item>
+    <item>日本語</item>
+    <item>한국의</item>
+    <item>Pусский</item>
+    <item>Deutsch</item>
+    <item>Français</item>
+    <item>Italiano</item>
+    <item>Español</item>
+    <item>Português</item>
+    <item>简体中文</item>    
+  </string-array>
+  <string name="ml_device_date_config">Fecha/Hora</string>
+  <string name="date_year">Año</string>
+  <string name="date_month">Mes</string>
+  <string name="date_day">Fecha</string>
+  <string name="ml_device_time_config">Ajuste de hora</string>
+  <string name="time_hour">Hora</string>
+  <string name="time_minute">Minuto</string>
+  <string name="time_second">Segundo</string>
+  <string name="ml_device_datetime_format">Fecha - hora</string>
+  <string-array name="ml_device_datetime_format">
+    <item>AAAA/MM/DD</item>
+    <item>DD/MM/AAAA</item>
+    <item>MM/DD/AAAA</item>    
+  </string-array>
+  <string name="ml_shutter_audio">Obturador</string> 
+	  <string-array name="ml_shutter_audio">
+    <item>Off</item>
+    <item>On</item>  
+  </string-array>  
+ <string name="ml_boot_audio">inicio</string> 
+	  <string-array name="ml_boot_audio">
+    <item>Off</item>
+    <item>On</item> 
+  </string-array> 
+ <string name="ml_key_audio">Señal acústica</string> 
+	  <string-array name="ml_key_audio">
+    <item>Off</item>
+    <item>On</item>  
+  </string-array>   
+ <string name="ml_audio_level">Volumen</string> 
+	  <string-array name="ml_audio_level">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>    
+  </string-array>       
+	<string name="ml_device_voicesettings">Sonidos</string> 
+	  <string-array name="ml_device_voicesettings">
+    <item>Obturador</item>
+    <item>inicio</item>
+    <item>Señal acústica</item>
+    <item>Volumen</item>
+  </string-array> 
+    <string name="ml_device_voicestatus">Sonido</string>
+  <string-array name="ml_device_voicestatus">
+    <item>Desactivar</item>
+    <item>30%</item>
+    <item>50%</item>
+    <item>80%</item>
+    <item>100%</item>
+  </string-array>
+   <string name="ml_device_resetfactory">Restabl. todo</string>
+  <string name="ml_device_resetfactory_failed">Factory Reset failure</string>
+  <string name="ml_device_resetfactory_success">Factory Reset successfully</string>
+  <string-array name="ml_device_resetfactory">
+    <item>No</item> 
+    <item>Sí</item>
+  </string-array>
+     <string name="ml_device_resetselection">¿Seguro que desea resetear?</string>
+   <string name="ml_confirm_reboot">¿Reiniciar ahora?</string>
+    <string name="ml_device_format">Formatear</string>
+  <string-array name="ml_device_format">
+    <item>No</item> 
+    <item>Sí</item>
+  </string-array>
+   <string name="ml_device_format_doing">Formateando...</string>
+  <string name="ml_device_format_failed">El formateo ha fallado</string> 
+  <string name="ml_device_format_success">Formateo correcto</string> 
+ <string name="ml_device_format_ing">Waiting</string>  
+	<string name="ml_device_format_over">Completed</string> 
+	<string name="ml_reset_factory_over">complet!</string>  
+  <string name="ml_device_deviceinfo">Información del dispositivo</string>
+  <string-array name="ml_device_deviceinfo">
+    <item>V8</item>
+    <item>SunChip</item>
+    <item>V2.0</item>
+  </string-array>  
+ <string name="ml_camera_fov">FOV</string>
+  <string-array name="ml_camera_fov">
+    <item>Desactivar</item>
+    <item>Amplio</item>
+    <item>Medio</item>
+    <item>Estrecho</item>
+  </string-array>    
+  <string name="ml_device_bootguide">Boot guide</string>
+  <string-array name="ml_device_bootguide">
+    <item>Turn Off</item>
+    <item>Turn On</item>
+  </string-array>
+ <string name="ml_quit_exit">Pulse OK para iniciar</string>     
+   <string name="ml_camera_wifiswitch">Información de la WIFI</string>
+   <string name="ml_camera_wifiswitch_ssid">Nombre de la WIFI:  </string>
+   <string name="ml_camera_wifiswitch_passwd">Contraseña de la WIFI:   </string>
+   <string name="ml_camera_wifiswitch_tip">Pulse y mantenga pulsado el botón para salir de la WIFI</string>
+  <string name="ml_camera_wifiswitch_connect">WIFI Connect Success</string>   
+   <string name="ml_prompt">Petición</string>  
+   <string name="ml_prompt_tf_null">No se ha detectado una tarjeta TF. ¡Introduzca una tarjeta TF!</string> 
+   <string name="ml_prompt_tf_full">¡El espacio de almacenamiento en la tarjeta TF es insuficiente!</string>
+   <string name="ml_prompt_tf_fs_error">El sistema de archivos no es compatible. ¿Seguro que desea formatear?</string>
+  <string name="ml_prompt_tf_speedclass_error">Low speed card，please replace!</string>
+  <string name="ml_prompt_no_file">Sin archivo</string>
+  <string name="ml_prompt_bat_full">¡La batería está totalmente cargada!</string>
+  <string name="ml_prompt_bat_low">Tensión de la batería baja. ¡Debe desactivar pronto!</string>
+  <string name="ml_prompt_auto_shutdown">La cámara se apagará automáticamente en 5 segundos.!</string>
+  <string name="ml_prompt_bat_forbid_work">Batería baja. No haga fotos ni grabe vídeos.</string>
+  <string name="ml_prompt_forbid_audio">No se admite la grabación en el modo actual!</string>
+  <string name="ml_prompt_bat_charge">Menos de un 30% de energía. ¡Cargue la batería!</string>
+  <string name="ml_prompt_database_full">Base de datos llena. Elimine los registros antiguos.</string>
+  <string name="ml_prompt_camera_error">Adquisición de imagen anómala. Se reinicializará la cámara.</string>
+  <string name="ml_prompt_rec_write_file_error">Tarjeta de baja velocidad!</string>
+  <string name="ml_prompt_unsupported_func">Resolución/Modo no admitido.</string>
+  <string name="ml_prompt_unsupported_ise">ISE is not supported when the shutter is turned on!</string>
+  <string name="ml_prompt_unsupported_shutter">The setting of shutter is not supported when the ISE is turened on!</string>
+  <string name="ml_prompt_device_busy">El dispositivo está ocupado.</string>
+  <string name="ml_prompt_unsupported_op">Operación no admitida.</string>
+  <string name="ml_prompt_exception">Configuración del sistema anómala. Se inicializará el sistema.</string>
+  <string name="ml_prompt_delete_file">¿Borrar este archivo?</string>
+  <string name="ml_prompt_delete_file_yes">Yes</string>  
+  <string name="ml_prompt_delete_file_no">No</string>   
+  <string name="ml_prompt_videofile_error">Archivo de vídeo incompleto, no se puede reproducir. ¿Seguro que desea eliminar este archivo?</string>
+  <string name="ml_prompt_track_synthesis">Track is synthesizing!</string>
+  <string name="ml_prompt_track_synthesis_done">Track has synthesized!</string>
+  <string name="ml_prompt_track_synthesis_failed">Track synthetises unsuccessfully!</string>
+  <string name="info_dialog">Información</string>
+  <string name="confirm">Confirmación</string>
+  <string name="cancel">Cancelar</string> 
+  <string name="tl_playlist">Seleccione el archivo a reproducir</string>
+  <string name="tl_media_file">Archivo multimedia</string>
+  <string name="delete_dialog">Eliminar</string>
+  <string name="delete_info">¿Seguro que desea eliminar el archivo actual?</string>
+  <string name="tl_usb_charge">Modo de carga</string>
+  <string name="tl_usb_mass_storage">Modo de almacenamiento masivo</string>
+  <string name="tl_usb_charging">Modo de carga</string>
+  <string name="tl_usb_connect">USB conectado</string>
+  <string name="tl_usb_webcam">Modo de cámara</string>
+  <string name="update_dialog_title">Actualizacion del sistema</string>
+  <string name="ml_prompt_ota_update">¿Desea actualizar OTA?</string>
+   <string name="ml_device_deviceinfo_mode">Modelo del producto:  </string>
+   <string name="ml_device_deviceinfo_version">Versión</string> 
+   <string name="ml_device_deviceinfo_update">Actualizado:  </string> 
+  <string-array name="ml_device_deviceinfo_version">
+    <item>EK7000</item>
+    <item>171010FXV2hhfd</item>
+  </string-array>   
+   <string name="ml_device_deviceinfo_about">Información del dispositivo</string>
+   <string name="ml_device_deviceinfo_manufacturer">Fabricante:  </string>
+   <string name="ml_device_deviceinfo_manufacturer1">Sunchip</string>
+   <string name="ml_device_deviceinfo_sd">Tarjeta SD</string>
+   <string name="ml_device_deviceinfo_sdformat">Formatear</string>
+   <string name="ml_device_deviceinfo_no_sd">No Card</string>
+   <string name="ml_device_deviceinfo_sd_abnormal">Tarjeta de memoria anormal</string>
+   <string name="ml_device_deviceinfo_storage_space">Espacio de almacenamiento: </string>
+   <string name="ml_device_deviceinfo_content">V316 TP SDV</string>
+   <string name="ml_device_deviceinfo_product_version">V3.0</string>
+   <string name="ml_media_file_info">Información del archivo multimedia</string>
+   <string name="ml_video_file_length">Longitud del video: </string>
+   <string name="ml_video_file_resolution">Resolución de video: </string>
+   <string name="ml_file_create_time">Tiempo de creación: </string>
+   <string name="ml_file_name">FileName: </string>
+   <string name="ml_file_size">Tamaño de archivo: </string>
+   <string name="ml_video_file_fps">Velocidad de cuadros de video: </string>
+   <string name="ml_video_file_bps">Tasa de código de video: </string>
+   <string name="ml_pic_file_resolution">Resolución de imagen: </string>
+   <string name="ml_ota_install_packet">Packet installation</string>
+  <string name="ml_ota_install_notice">Do not turn off the device</string>
+  <string name="ml_ota_install_failed">Packet installation fialed,ready to reboot</string>
+  <string name="ml_ota_install_finsh">Update finished, device will be reboot.</string>
+  <string name="ml_ota_install_check_md5_fail">Failed to check md5 value,firmware is invalid</string>
+  <string name="ml_ota_instal_found_img_fail">Failed to found the version.</string>   
+  <string name="ml_warn_wait">Esperando</string>     
+ <string name="ml_pic_file_saving">picture saving... </string>
+   <string name="all_letters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+   <string name="all_digit_num">0123456789</string>
+   <string name="all_symbol">!@#$%^*():;"',/?[]</string>
+</resources>
+

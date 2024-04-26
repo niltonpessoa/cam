@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="tl_shutdown">종료</string>
+  <string name="tl_sd_mount">SD 카드 삽입됨</string>
+  <string name="tl_sd_unmount">SD 카드 삽입되지 않음</string>
+  <string name="tl_model_select">모드 선택</string>
+  <string-array name="mode_list">
+    <item>mode_normal_rec</item>
+    <item>mode_slowly_rec</item>
+    <item>mode_loop_rec</item>
+    <item>mode_timelapse_rec</item>
+    <item>mode_track_rec</item>
+    <item>mode_normal_pic</item>
+    <item>mode_auto_pic</item>
+    <item>mode_continue_pic</item>
+    <item>mode_timing_pic</item>
+  </string-array>
+  <string name="mode_normal_rec">Video</string>
+  <string name="mode_slowly_rec">Slowly</string>
+  <string name="mode_loop_rec">반복기록</string>
+  <string-array name="mode_loop_rec">
+    <item>Off</item>
+    <item>2 분</item>
+    <item>3 분</item>
+    <item>5 분</item>
+  </string-array>  
+  <string name="mode_timelapse_rec">Lapse</string>
+  <string name="mode_track_rec">Track</string>
+  <string name="mode_normal_pic">Photo</string>
+  <string name="mode_auto_pic">Auto</string>
+  <string name="mode_continue_pic">Burst</string>
+  <string name="mode_timing_pic">시간 경과</string>
+   <string-array name="mode_timing_pic">
+    <item>2s</item>
+    <item>3s</item>
+    <item>5s</item> 
+    <item>10s</item>   	
+    <item>20s</item>
+    <item>30s</item>
+    <item>60s</item>
+  </string-array>   
+ <string name="time_osd_mode">날짜표시</string>
+   <string-array name="time_osd_mode">
+    <item>끄기</item>
+    <item>날짜</item>
+    <item>날짜/시간</item>
+  </string-array>  
+ <string name="ml_shutter">노출</string>
+   <string-array name="ml_shutter">
+    <item>-2.0</item>
+    <item>-1.7</item>
+    <item>-1.3</item>
+    <item>-1.0</item>
+    <item>-0.7</item>
+    <item>-0.3</item>
+    <item>0.0</item>
+    <item>+0.3</item>
+    <item>+0.7</item> 
+    <item>+1.0</item>
+    <item>+1.3</item>
+    <item>+1.7</item>
+    <item>+2.0</item>           
+  </string-array>   
+ <string name="three_continue_mode">파열</string>
+   <string-array name="three_continue_mode">
+    <item>3Photos</item>
+  </string-array>  
+ <string name="ml_continue_timing_mode">연속 사간</string>
+   <string-array name="ml_continue_timing_mode">
+    <item>끄기</item>
+    <item>켜기</item>
+  </string-array>  
+   <string-array name="function_list">
+    <item>function_mode</item>
+    <item>function_media</item>
+    <item>function_setting</item>
+    <item>function_return</item>
+  </string-array>  
+  <string name="function_mode">Mode</string>
+  <string name="function_media">Media</string>
+  <string name="function_setting">SETTINGS</string>
+  <string name="function_return">Return</string>    
+  <string name="ml_trackrec_resolution">Video resolution</string>
+  <string-array name="ml_trackrec_resolution">
+    <item>1080P30FPS</item>
+  </string-array>
+  <string name="ml_trackrec_length">Video length</string>
+  <string-array name="ml_trackrec_length">
+    <item>5s</item>
+    <item>10s</item>
+    <item>15s</item>
+  </string-array>
+  <string name="ml_track_interval">Track interval</string>
+  <string-array name="ml_track_interval">
+    <item>High</item>
+    <item>Middle</item>
+    <item>Low</item>
+  </string-array>
+  <string name="ml_record_resolution">동영상 크기</string>
+  <string-array name="ml_record_resolution">
+    <item>4K30FPS</item> 
+    <item>2.7K30FPS</item> 
+    <item>1080P60FPS</item>
+    <item>1080P30FPS</item>
+    <item>720P120FPS</item> 
+    <item>720P60FPS</item>
+    <item>720P30FPS</item>
+  </string-array>
+  <string name="ml_setting_first_colwidth">110</string>
+  <string name="ml_setting_second_colwidth">110</string>
+  <string name="ml_setting_third_colwidth">34</string>
+  <string name="ml_modelselect_item_width">106</string>
+  <string name="ml_modelselect_item_height">90</string>
+  <string name="ml_voicectrl_list_item_height">50</string>
+  <string name="ml_record_antishake">흔들림 방지</string>
+  <string name="ml_record_encodingtype">동영상 인코딩 유형</string>
+  <string-array name="ml_record_encodingtype">
+    <item>H264</item>
+    <item>H265</item>
+  </string-array>
+  <string name="ml_record_audio">동영상 사운드</string>
+  <string-array name="ml_record_audio">
+    <item>끄기</item>
+    <item>켜기</item>
+  </string-array>
+  <string name="ml_record_eis">전자 이미지 안정화</string>
+  <string-array name="ml_record_eis">
+    <item>끄기</item>
+    <item>켜기</item>
+  </string-array>
+  <string name="ml_record_interval">기록 간격</string>
+  <string-array name="ml_record_interval">
+    <item>0.5 초</item>
+    <item>1 초</item>
+    <item>2 초</item>
+    <item>5 초</item>
+    <item>10 초</item>
+    <item>30 초</item>
+    <item>60 초</item>
+  </string-array>
+  <string name="ml_record_length">동영상 길이</string>
+  <string-array name="ml_record_length">
+    <item>2 분</item>
+    <item>3 분</item>
+    <item>5 분</item>
+  </string-array>
+  <string name="ml_record_slowmotion">저속 촬영</string>
+  <string-array name="ml_record_slowmotion">
+    <item>1080P 4X</item>
+    <item>1080P 2X</item>
+    <item>720P 8X</item>
+    <item>720P 4X</item>
+  </string-array>
+  <string name="ml_timelapse_resolution">비디오 해상도</string>
+  <string-array name="ml_timelapse_resolution">
+    <item>4K</item>
+    <item>2.7K</item>
+    <item>1080P</item>
+    <item>720P</item>
+  </string-array>
+  <string name="ml_photo_resolution">해상도</string>
+  <string-array name="ml_photo_resolution">
+    <item>16M</item>
+    <item>13M</item>
+    <item>8M</item>
+  </string-array>
+  <string name="ml_photo_formate">이미지 형식</string>
+  <string-array name="ml_photo_formate">
+    <item>JPEG</item>
+    <item>JPEG+RAW</item>
+  </string-array>
+  <string name="ml_photo_timewater">사진 워터마크</string>
+  <string name="ml_photo_countdown">카운트다운</string>
+  <string-array name="ml_photo_countdown">
+    <item>3 초</item>
+    <item>5 초</item>
+    <item>10 초</item>
+    <item>20 초</item>
+  </string-array>
+  <string name="ml_photo_interval">촬영 간격</string>
+  <string-array name="ml_photo_interval">
+    <item>3 초</item>
+    <item>10 초</item>
+    <item>15 초</item>
+    <item>20 초</item>
+    <item>30 초</item>
+  </string-array>
+  <string name="ml_photo_freq">촬영 빈도</string>
+  <string-array name="ml_photo_freq">
+    <item>3P/s</item>
+    <item>5P/s</item>
+    <item>10P/s</item>
+  </string-array>
+  <string name="ml_camera_metering">계측 모드</string>
+  <string-array name="ml_camera_metering">
+    <item>평균 계측</item>
+    <item>중앙 계측</item>
+    <item>스팟 계측</item>
+    <item>행렬 계측</item>
+  </string-array>
+  <string name="ml_camera_sharpness">첨예도</string>
+  <string-array name="ml_camera_sharpness">
+    <item>높음</item>
+    <item>중간</item>
+    <item>낮음</item>
+  </string-array>
+   <string name="ml_video_quality">동영상 품질</string>
+  <string-array name="ml_video_quality">
+    <item>높음</item>
+    <item>중간</item>
+    <item>낮음</item>
+  </string-array>
+   <string name="ml_video_shutter">셔터</string>
+  <string-array name="ml_video_shutter">
+    <item>자동</item>
+    <item>1/240 초</item>
+    <item>1/120 초</item>
+    <item>1/60 초</item>
+    <item>1/30 초</item>
+  </string-array>
+   <string name="ml_photo_shutter">셔터</string>
+  <string-array name="ml_photo_shutter">
+    <item>자동</item>
+    <item>2 초</item>
+    <item>5 초</item>
+    <item>10 초</item>
+    <item>15 초</item>
+    <item>20 초</item>
+    <item>30 초</item>
+  </string-array>
+  <string name="ml_camera_iso">감도</string>
+  <string-array name="ml_camera_iso">
+    <item>자동</item>
+    <item>100</item>
+    <item>200</item>
+    <item>400</item>
+    <item>800</item>
+    <item>1600</item>
+    <item>3200</item>
+    <item>6400</item>
+  </string-array>
+  <string name="ml_video_length">동영상 길이</string>
+  <string-array name="ml_video_length">
+    <item>해당 없음</item>
+    <item>6 초</item>
+    <item>8 초</item>
+    <item>10 초</item>
+    <item>20 초</item>
+    <item>30 초</item>
+    <item>60 초</item>
+    <item>120 초</item>
+  </string-array>
+   <string name="ml_photo_dramashot">모션 트랙 촬영</string>
+  <string-array name="ml_photo_dramashot">
+    <item>끄기</item>
+    <item>3P/S</item>
+    <item>5P/S</item>
+    <item>10P/S</item>
+  </string-array>
+  <string name="ml_camera_exposure">노출 설정</string>
+  <string-array name="ml_camera_exposure">
+    <item>-3</item>
+    <item>-2</item>
+    <item>-1</item>
+    <item>0</item>   
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <string name="ml_camera_whitebalance">화이트 밸런스</string>
+  <string-array name="ml_camera_whitebalance">
+    <item>자동</item>
+    <item>맑은 날</item>
+    <item>흐린 날</item>
+    <item>백열등</item>
+    <item>형광등</item>
+  </string-array>
+   <string name="ml_camera_imagerotation">회전_180</string>
+  <string-array name="ml_camera_imagerotation">
+    <item>끄기</item>
+    <item>켜기</item>
+  </string-array>
+   <string name="ml_camera_lightsourcefrequency">전원 주파수</string>
+  <string-array name="ml_camera_lightsourcefrequency">
+    <item>50Hz</item>
+    <item>60Hz</item>
+    <item>Auto</item>
+  </string-array>
+  <string name="ml_camera_ledindicator">LED 표시등</string>
+  <string-array name="ml_camera_ledindicator">
+    <item>끄기</item>
+    <item>켜기</item>
+  </string-array>
+   <string name="ml_camera_autoscreensaver">화면 보호기</string>
+  <string-array name="ml_camera_autoscreensaver">
+    <item>끄기</item>
+    <item>1분</item>
+    <item>3분</item>
+    <item>5분</item>
+  </string-array> 
+   <string name="ml_camera_timedshutdown">절전</string>
+  <string-array name="ml_camera_timedshutdown">
+    <item>끄기</item>
+    <item>1분</item>
+    <item>3분</item>
+    <item>5분</item>
+  </string-array>
+  <string name="ml_camera_timewatermark">시간 워터마크</string>
+  <string-array name="ml_camera_timewatermark">
+    <item>끄기</item>
+    <item>켜기</item>
+  </string-array>
+  <string name="ml_device_beep">톤 설정</string>
+  <string-array name="ml_device_beep">
+    <item>높음</item>
+    <item>중간</item>
+    <item>낮음</item>
+    <item>끄기</item>
+  </string-array>
+  <string name="ml_device_voice_ctrl_list">Voice Ctrl List</string>
+    <string-array name="ml_device_voice_ctrl_list">
+    <item>XiaoZhi begin to record</item>
+    <item>XiaoZhi stop recording</item>
+    <item>XiaoZhi begin to take picture</item>
+    <item>XiaoZhi begin to take picture continuously</item>
+    <item>XiaoZhi power off</item>
+    <item>……</item>
+  </string-array>
+  <string name="ml_device_voice_ctrl">Voice Ctrl</string>
+  <string-array name="ml_device_voice_ctrl">
+    <item>Turn Off</item>
+    <item>Turn On</item>
+  </string-array>
+  <string name="ml_device_standby">Sleep wake up</string>
+  <string-array name="ml_device_standby">
+    <item>Turn 0ff</item>
+    <item>Turn On</item>
+  </string-array>
+  <string name="ml_camera_distortioncalibration">왜곡 교정</string>
+  <string-array name="ml_camera_distortioncalibration">
+    <item>끄기</item>
+    <item>켜기</item>
+  </string-array>
+  <string name="ml_device_wireless">핫스팟</string>
+  <string-array name="ml_device_wireless">
+    <item>끄기</item>
+    <item>켜기</item>
+  </string-array>
+  <string name="ml_device_wireless_info">핫스팟 정보</string>
+  <string name="ml_device_wireless_info_ssid">핫스팟 이름:</string>
+  <string name="ml_device_wireless_info_pwd">비밀번호:</string>
+  <string name="ml_device_wireless_info_guide">Press any key to exit Wi-Fi</string>
+  <string name="ml_device_wireless_reset_title">핫스팟을 지금 재설정합니까?</string>
+  <string name="ml_device_wireless_reset">핫스팟 재설정</string>
+  <string-array name="ml_device_wireless_reset">
+    <item>승인</item>
+    <item>취소</item>
+  </string-array>
+  <string name="ml_device_language">언어</string>
+  <string-array name="ml_device_language">
+    <item>English</item>
+    <item>繁體中文</item>
+    <item>日本語</item>
+    <item>한국의</item>
+    <item>Pусский</item>
+    <item>Deutsch</item>
+    <item>Français</item>
+    <item>Italiano</item>
+    <item>Español</item>
+    <item>Português</item>
+    <item>简体中文</item>    
+  </string-array>
+  <string name="ml_device_date_config">날짜와  설정</string>
+  <string name="date_year">연</string>
+  <string name="date_month">월</string>
+  <string name="date_day">일자</string>
+  <string name="ml_device_time_config">시간 설정</string>
+  <string name="time_hour">시</string>
+  <string name="time_minute">분</string>
+  <string name="time_second">초</string>
+  <string name="ml_device_datetime_format">날짜/시간</string>
+  <string-array name="ml_device_datetime_format">
+    <item>년/월/일</item>
+    <item>일/월/년</item>
+    <item>월/일/년</item>    
+  </string-array>
+  <string name="ml_shutter_audio">셔터 우선</string> 
+	  <string-array name="ml_shutter_audio">
+    <item>켜기</item>
+    <item>끄기</item>
+  </string-array>  
+ <string name="ml_boot_audio">시작 사운드</string> 
+	  <string-array name="ml_boot_audio">
+    <item>켜기</item>
+    <item>끄기</item>
+  </string-array> 
+ <string name="ml_key_audio">비프음</string> 
+	  <string-array name="ml_key_audio">
+    <item>켜기</item>
+    <item>끄기</item>
+  </string-array>   
+ <string name="ml_audio_level">볼륨</string> 
+	  <string-array name="ml_audio_level">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>    
+  </string-array>       
+	<string name="ml_device_voicesettings">사운드</string> 
+	  <string-array name="ml_device_voicesettings">
+    <item>셔터 우선</item>
+    <item>시작 사운드</item>
+    <item>비프음</item>
+    <item>볼륨</item>
+  </string-array> 
+    <string name="ml_device_voicestatus">사운드</string>
+  <string-array name="ml_device_voicestatus">
+    <item>끄기</item>
+    <item>30%</item>
+    <item>50%</item>
+    <item>80%</item>
+    <item>100%</item>
+  </string-array>
+   <string name="ml_device_resetfactory">모든 재설정</string>
+  <string name="ml_device_resetfactory_failed">Factory Reset failure</string>
+  <string name="ml_device_resetfactory_success">Factory Reset successfully</string>
+  <string-array name="ml_device_resetfactory">
+    <item>아니요</item> 
+    <item>예</item>
+  </string-array>
+     <string name="ml_device_resetselection">정말 재설정 할까요?</string>
+   <string name="ml_confirm_reboot">재시동 여부?</string>
+    <string name="ml_device_format">포맷</string>
+  <string-array name="ml_device_format">
+    <item>아니요</item> 
+    <item>예</item>
+  </string-array>
+  <string name="ml_device_format_ing">Waiting</string>  
+	<string name="ml_device_format_over">Completed</string> 
+	<string name="ml_reset_factory_over">Completed!</string>  
+   <string name="ml_device_format_doing">포맷 중…</string>
+  <string name="ml_device_format_failed">포맷 실패</string> 
+  <string name="ml_device_format_success">포맷 완료</string> 
+  <string name="ml_device_deviceinfo">장치 정보</string>
+  <string-array name="ml_device_deviceinfo">
+    <item>V8</item>
+    <item>SunChip</item>
+    <item>V2.0</item>
+  </string-array>
+  <string name="ml_camera_fov">FOV</string>
+  <string-array name="ml_camera_fov">
+    <item>끄기</item>
+    <item>넓은</item>
+    <item>중간</item>
+    <item>제한된</item>
+  </string-array>  
+  <string name="ml_device_bootguide">Boot Guide</string>
+  <string-array name="ml_device_bootguide">
+    <item>Turn Off</item>
+    <item>Turn On</item>
+  </string-array>
+  <string name="ml_quit_exit">실행하려면 확인을 누르세요</string>    
+   <string name="ml_camera_wifiswitch">WiFi 정보</string>
+   <string name="ml_camera_wifiswitch_ssid">WiFi 이름: </string>
+   <string name="ml_camera_wifiswitch_passwd">WiFi 암호: </string>
+   <string name="ml_camera_wifiswitch_tip">WiFi를 종료하려면 버튼을 꾹 누르세요</string>
+   <string name="ml_camera_wifiswitch_connect">와이파이 연결 성공</string>   
+   <string name="ml_prompt">프롬트</string>
+  <string name="ml_prompt_tf_null">TF 카드를 찾을 수 없습니다. TF 카드를 삽입하세요!</string>
+  <string name="ml_prompt_tf_full">TF 카드 저장 공간이 부족합니다!</string>
+  <string name="ml_prompt_tf_fs_error">지원되지 않는 파일 시스템입니다. 정말 포맷할까요?</string>
+  <string name="ml_prompt_tf_speedclass_error">Low speed card，please replace!</string>
+  <string name="ml_prompt_bat_full">Batteries fully charged!</string>
+  <string name="ml_prompt_no_file">파일 없음</string>
+  <string name="ml_prompt_bat_full">배터리 충전이 완료되었습니다！</string>
+  <string name="ml_prompt_bat_low">배터리 전압이 낮습니다. 곧 종료합니다!</string>
+  <string name="ml_prompt_auto_shutdown">카메라가 자동으로 5초 내로 꺼집니다!</string>
+  <string name="ml_prompt_bat_forbid_work">충전 필요. 사진을 찍지/동영상을 기록하지 마십시오!</string>
+  <string name="ml_prompt_forbid_audio">현재 모드에서 기록이 지원되지 않습니다!</string>
+  <string name="ml_prompt_bat_charge">전원이 30% 미만입니다. 배터리를 충전해 주십시오!</string>
+  <string name="ml_prompt_database_full">데이터베이스가 가득 찼습니다. 이전 기록을 삭제해 주십시오!</string>
+  <string name="ml_prompt_camera_error">이상 이미지 획득. 카메라가 다시 초기화됩니다!</string>
+  <string name="ml_prompt_rec_write_file_error">저속 카드!</string>
+  <string name="ml_prompt_unsupported_func">해상도/모드가 지원되지 않습니다!</string>
+  <string name="ml_prompt_unsupported_ise">ISE is not supported when the shutter is turned on!</string>
+  <string name="ml_prompt_unsupported_shutter">The setting of shutter is not supported when the ISE is turened on!</string>
+  <string name="ml_prompt_device_busy">장치 사용 중!</string>
+  <string name="ml_prompt_unsupported_op">작동이 지원되지 않습니다!</string>
+  <string name="ml_prompt_exception">이상 시스템 구성. 시스템이 초기화됩니다!</string>
+  <string name="ml_prompt_delete_file">이 파일 삭제?</string>
+  <string name="ml_prompt_delete_file_yes">Yes</string>  
+  <string name="ml_prompt_delete_file_no">No</string> 
+  <string name="ml_prompt_videofile_error">완전하지 않은 동영상 파일. 재생되지 않습니다. 이 파일을 삭제하시겠습니까?</string>
+  <string name="ml_prompt_track_synthesis">Track is synthesizing!</string>
+  <string name="ml_prompt_track_synthesis_done">Track has synthesized!</string>
+  <string name="ml_prompt_track_synthesis_failed">Track synthetises unsuccessfully!</string>
+  <string name="info_dialog">정보</string>
+  <string name="confirm">승인</string>
+  <string name="cancel">취소</string> 
+  <string name="tl_playlist">재생할 파일을 선택하세요</string>
+  <string name="tl_media_file">매체 파일</string>
+  <string name="delete_dialog">삭제</string>
+  <string name="delete_info">현재 파일을 정말 삭제할까요?</string>
+  <string name="tl_usb_charge">충전 모드</string>
+  <string name="tl_usb_mass_storage">대용량 저장 모드</string>
+  <string name="tl_usb_charging">충전 모드</string>
+  <string name="tl_usb_connect">USB 연결됨</string>
+  <string name="tl_usb_webcam">카메라 모드</string>
+  <string name="update_dialog_title">시스템 업그레이드</string>   
+  <string name="ml_prompt_ota_update">OTA를 업그레이드 하시겠습니까?</string>
+   <string name="ml_device_deviceinfo_mode">제품 모델: </string>
+   <string name="ml_device_deviceinfo_version">버전 정보</string> 
+  <string-array name="ml_device_deviceinfo_version">
+    <item>EK7000</item>
+    <item>171010FXV2hhfd</item>
+  </string-array>   
+   <string name="ml_device_deviceinfo_update">업데이트 날짜: </string> 
+   <string name="ml_device_deviceinfo_about">장비 정보</string>
+   <string name="ml_device_deviceinfo_manufacturer">제조사: </string>
+   <string name="ml_device_deviceinfo_manufacturer1">Sunchip</string>
+   <string name="ml_device_deviceinfo_sd">SD 카드</string>
+   <string name="ml_device_deviceinfo_sdformat">서식 지정</string>
+   <string name="ml_device_deviceinfo_no_sd">No Card</string>
+   <string name="ml_device_deviceinfo_sd_abnormal">비정상적인 메모리 카드</string>
+   <string name="ml_device_deviceinfo_storage_space">저장 공간: </string>
+   <string name="ml_device_deviceinfo_content">V316 TP SDV</string>
+   <string name="ml_device_deviceinfo_product_version">V3.0</string>
+   <string name="ml_media_file_info">미디어 파일 정보</string>
+   <string name="ml_video_file_length">동영상 길이: </string>
+   <string name="ml_video_file_resolution">비디오 해상도: </string>
+   <string name="ml_file_create_time">창조 시간: </string>
+   <string name="ml_file_name">FileName: </string>
+   <string name="ml_file_size">파일 크기: </string>
+   <string name="ml_video_file_fps">비디오 프레임 속도: </string>
+   <string name="ml_video_file_bps">비디오 코드 레이트: </string>
+   <string name="ml_pic_file_resolution">이미지 해상도: </string>
+   <string name="ml_ota_install_packet">Packet installation</string>
+  <string name="ml_ota_install_notice">Do not turn off the device</string>
+  <string name="ml_ota_install_failed">Packet installation fialed,ready to reboot</string>
+  <string name="ml_ota_install_finsh">Update finished, device will be reboot.</string>
+  <string name="ml_ota_install_check_md5_fail">Failed to check md5 value,firmware is invalid</string>
+  <string name="ml_ota_instal_found_img_fail">Failed to found the version.</string>
+  <string name="ml_warn_wait">기다리는</string>    
+   <string name="ml_pic_file_saving">picture saving... </string>
+   <string name="all_letters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+   <string name="all_digit_num">0123456789</string>
+   <string name="all_symbol">!@#$%^*():;"',/?[]</string>
+</resources>
+

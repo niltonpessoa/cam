@@ -1,0 +1,3767 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<device>
+    
+    <info>
+        
+        <dev_type>X5</dev_type>
+        
+        <dev_version>X20160126V03</dev_version>
+        
+        <dev_producer>XDV</dev_producer>
+        
+        <dev_update>20160126</dev_update>
+        
+        <dev_cpu>V5</dev_cpu>
+        
+        <dev_gpu>XXX</dev_gpu>
+        
+        <dev_mem>128M</dev_mem>
+        
+        <dev_flash>32M</dev_flash>
+        
+        <dev_os_core>LINUX</dev_os_core>
+        
+        <dev_os>LINUX</dev_os>
+        
+    </info>
+    
+    <languages>
+        
+        <!-- 简体中文 -->
+        <language language_android="zhCN" language_ios="zh-Hans" language_other="">0</language>
+        
+        <!-- 繁体中文 zh-Hant-US zh-TW zh-HK -->
+        <language language_android="zhHK" language_ios="zh-Hant" language_other="">1</language>
+        
+        <!-- 英文 English -->
+        <language language_android="en" language_ios="en" language_other="">2</language>
+        
+        <!-- 日文 -->
+        <language language_android="ja" language_ios="ja" language_other="">3</language>
+        
+        <!-- 韩文 -->
+        <language language_android="ko" language_ios="ko" language_other="">4</language>
+        
+        <!-- 俄文 русский -->
+        <language language_android="ru" language_ios="ru" language_other="">5</language>
+        
+        <!-- 德文 Deutsch -->
+        <language language_android="de" language_ios="de" language_other="">6</language>
+        
+        <!-- 法文 français -->
+        <language language_android="fr" language_ios="fr" language_other="">7</language>
+        
+        <!-- 意大利文 italiano -->
+        <language language_android="it" language_ios="it" language_other="">8</language>
+        
+        <!-- 西班牙文 español -->
+        <language language_android="es" language_ios="es" language_other="">9</language>
+        
+        <!-- 波兰语 polski -->
+        <language language_android="pl" language_ios="pl" language_other="">10</language>
+        
+        <!-- 荷兰语 nederlandse -->
+        <language language_android="nl" language_ios="nl" language_other="">11</language>
+        
+        <!-- 葡萄牙语 português -->
+        <language language_android="pt" language_ios="pt" language_other="">12</language>
+        
+        <!-- 泰文 ไทย -->
+        <language language_android="th" language_ios="th" language_other="">13</language>
+        
+        <!-- 捷克语  -->
+        <language language_android="cs" language_ios="cs" language_other="">14</language>
+        
+        <!-- 斯洛伐克语  -->
+        <language language_android="sk" language_ios="sk" language_other="">15</language>
+        
+    </languages>
+    
+    
+    <!-- 简体中文 start-->
+    <settings index="0">
+        
+        <group_type>
+            
+            <value>视频参数设置</value>
+            <value>拍照参数设置</value>
+            <value>相机参数设置</value>
+            <value>设备参数设置</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="录像分辨率" app_enalbe="1" cmd_send="670" cmd_resp="671"  ui_type="list" >
+                
+                <value>4K 30FPS</value>
+
+                <value>2.7K 30FPS</value>
+
+                <value>1080P 120FPS</value>
+
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+
+                <value>720P 240FPS</value>
+
+                <value>720P 120FPS</value>
+                
+                <value>720P 60FPS</value>
+                
+                <value>720P 30FPS</value>
+
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="录像声音" app_enalbe="1" cmd_send="676" cmd_resp="677"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="缩时录影" app_enalbe="1" cmd_send="674" cmd_resp="675"  ui_type="list" >
+                
+                <value>关闭</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="循环录影" app_enalbe="1" cmd_send="672" cmd_resp="673"  ui_type="list" >
+                
+                <value>关闭</value>
+                
+                <value>2分钟</value>
+                
+                <value>3分钟</value>
+                
+                <value>5分钟</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="慢摄影" app_enalbe="1" cmd_send="680" cmd_resp="681"  ui_type="list" >
+
+                <value>1080P 120FPS</value>
+
+                <value>1080P 60FPS</value>
+
+                <value>720P 240FPS</value>
+
+                <value>720P 120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="像素设置" app_enalbe="1" cmd_send="682" cmd_resp="683"  ui_type="list" >
+                
+                <value>8M</value>
+                
+                <value>13M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="定时拍照" app_enalbe="1" cmd_send="684" cmd_resp="685"  ui_type="list" >
+                
+                <value>关闭</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="自动拍照" app_enalbe="1" cmd_send="686" cmd_resp="687"  ui_type="list" >
+                
+                <value>关闭</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="运动轨迹拍照" app_enalbe="1" cmd_send="688" cmd_resp="689"  ui_type="list" >
+                
+                <value>关闭</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="曝光设置" app_enalbe="1" cmd_send="690" cmd_resp="691"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="白平衡" app_enalbe="1" cmd_send="692" cmd_resp="693"  ui_type="list" >
+                
+                <value>自动</value>
+                
+                <value>晴天</value>
+                
+                <value>阴天</value>
+                
+                <value>白炽光</value>
+                
+                <value>荧光</value>
+                
+            </set>
+            
+<!--            <set index="2" id="wifi" name="WiFi开关" app_enalbe="0" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>-->
+
+            <set index="2" id="wifi_info" name="WiFi设置" app_enalbe="0" cmd_send="728" cmd_resp="729"  ui_type="page" ></set>
+            
+            <set index="3" id="Image_rotation" name="影像旋转" app_enalbe="1" cmd_send="696" cmd_resp="697"  ui_type="checkbox" ></set>
+            
+            
+            <set index="4" id="light_freq" name="光源频率" app_enalbe="1" cmd_send="694" cmd_resp="695"  ui_type="list" >
+                
+                <value>自动</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="5" id="LED_lights" name="LED指示灯" app_enalbe="1" cmd_send="714" cmd_resp="715"  ui_type="checkbox" ></set>
+            
+            <set index="6" id="screen_switch" name="自动屏保" app_enalbe="0" cmd_send="702" cmd_resp="703"  ui_type="list" >
+                
+                <value>关闭</value>
+
+                <value>30秒</value>
+
+                <value>1分钟</value>
+
+                <value>2分钟</value>
+                
+            </set>
+            
+            <set index="7" id="time_water_mark" name="时间水印" app_enalbe="1" cmd_send="698" cmd_resp="699"  ui_type="checkbox" ></set>
+            
+            <set index="8" id="time_sync" name="时间同步" app_enalbe="0" cmd_send="722" cmd_resp="723" ui_type="page"></set>
+            
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="格式化"       app_enalbe="1" cmd_send="645" cmd_resp="646"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="恢复出厂设置"  app_enalbe="1" cmd_send="710" cmd_resp="711"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="存储空间"     app_enalbe="1" cmd_send="" cmd_resp=""  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="退出"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 简体中文 end-->
+    
+    <!-- 繁体中文 zh-Hant-US zh-TW zh-HK start-->
+    <settings index="1">
+        
+        <group_type>
+            
+            <value>視頻參數</value>
+            <value>拍照參數</value>
+            <value>相機參數</value>
+            <value>設備參數</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="錄像分辨率" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="錄像聲音" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="縮時錄影" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>關閉</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="循環錄影" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>關閉</value>
+                
+                <value>2分钟</value>
+                
+                <value>3分钟</value>
+                
+                <value>5分钟</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="慢攝影" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="像素設置" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="定時拍照" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>關閉</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="自動拍照" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>關閉</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="運動軌跡拍照" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>關閉</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="曝光設置" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="白平衡" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>自動</value>
+                
+                <value>晴天</value>
+                
+                <value>陰天</value>
+                
+                <value>白熾光</value>
+                
+                <value>熒光</value>
+                
+            </set>
+            
+<!--            <set index="2" id="wifi" name="WiFi開關" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>-->
+
+            <set index="2" id="wifi_info" name="WiFi" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="3" id="Image_rotation" name="影像旋转" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="4" id="light_freq" name="光源頻率" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>自动</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="5" id="LED_lights" name="LED指示燈" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="6" id="screen_switch" name="自動熄屏" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10秒</value>
+                
+                <value>20秒</value>
+                
+                <value>30秒</value>
+                
+                <value>关闭</value>
+                
+            </set>
+            
+            <set index="7" id="time_water_mark" name="時間水印" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="8" id="time_sync" name="時間同步" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="格式化"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="恢復出廠設置"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="存儲空間"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="退出"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 繁体中文 zh-Hant-US zh-TW zh-HK end-->
+    
+    <!-- 英文 English start-->
+    <settings index="2">
+        
+        <group_type>
+            
+            <value>Video</value>
+            <value>Photo</value>
+            <value>Preview</value>
+            <value>Device</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Video Resolution" app_enalbe="1" cmd_send="670" cmd_resp="671"  ui_type="list" >
+                
+                <value>4K 30FPS</value>
+                
+                <value>2.7K 30FPS</value>
+                
+                <value>1080P 120FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 240FPS</value>
+                
+                <value>720P 120FPS</value>
+                
+                <value>720P 60FPS</value>
+                
+                <value>720P 30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Recording Sound" app_enalbe="1" cmd_send="676" cmd_resp="677"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Time-lapse Video Recording" app_enalbe="1" cmd_send="674" cmd_resp="675"  ui_type="list" >
+                
+                <value>Close</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Loop Recording" app_enalbe="1" cmd_send="672" cmd_resp="673"  ui_type="list" >
+                
+                <value>Close</value>
+                
+                <value>2 minutes</value>
+                
+                <value>3 minutes</value>
+                
+                <value>5 minutes</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Time-lapse Photography" app_enalbe="1" cmd_send="680" cmd_resp="681"  ui_type="list" >
+                
+                <value>1080P 120FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 240FPS</value>
+                
+                <value>720P 120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="Photo Resolution" app_enalbe="1" cmd_send="682" cmd_resp="683"  ui_type="list" >
+                
+                <value>8M</value>
+                
+                <value>13M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Timed" app_enalbe="1" cmd_send="684" cmd_resp="685"  ui_type="list" >
+                
+                <value>Close</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Auto" app_enalbe="1" cmd_send="686" cmd_resp="687"  ui_type="list" >
+                
+                <value>Close</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Drama Shot" app_enalbe="1" cmd_send="688" cmd_resp="689"  ui_type="list" >
+                
+                <value>Close</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Exposure" app_enalbe="1" cmd_send="690" cmd_resp="691"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="White Balance" app_enalbe="1" cmd_send="692" cmd_resp="693"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>Sunny</value>
+                
+                <value>Cloudy</value>
+                
+                <value>Incandescent Light</value>
+                
+                <value>Fluorescent Light</value>
+                
+            </set>
+            
+<!--            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>-->
+
+            <set index="2" id="wifi_info" name="WiFi-Info" app_enalbe="1" cmd_send="728" cmd_resp="729"  ui_type="page" ></set>
+            
+            <set index="3" id="Image_rotation" name="Image Rotation" app_enalbe="1" cmd_send="696" cmd_resp="697"  ui_type="checkbox" ></set>
+            
+            
+            <set index="4" id="light_freq" name="Light Source Frequency" app_enalbe="1" cmd_send="694" cmd_resp="695"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="5" id="LED_lights" name="LED Indicator Light" app_enalbe="1" cmd_send="714" cmd_resp="715"  ui_type="checkbox" ></set>
+            
+            <set index="6" id="screen_switch" name="Auto Screensaver" app_enalbe="0" cmd_send="702" cmd_resp="703"  ui_type="list" >
+                
+                <value>OFF</value>
+                
+                <value>30S</value>
+                
+                <value>1MIN</value>
+                
+                <value>2MIN</value>
+                
+            </set>
+            
+            
+            <set index="7" id="time_water_mark" name="Time Watermark" app_enalbe="1" cmd_send="698" cmd_resp="699"  ui_type="checkbox" ></set>
+            
+            <set index="8" id="time_sync" name="Time Sync" app_enalbe="1" cmd_send="722" cmd_resp="723" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="Format"       app_enalbe="1" cmd_send="645" cmd_resp="646"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="Reset"  app_enalbe="1" cmd_send="710" cmd_resp="711"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="Storage"     app_enalbe="1" cmd_send="" cmd_resp=""  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="Exit"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 英文 English end-->
+    
+    <!-- 日文 start-->
+    <settings index="3">
+        
+        <group_type>
+            
+            <value>ビデオ</value>
+            <value>フォト</value>
+            <value>監視</value>
+            <value>設定</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="ビデオ解像度" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="レコードの音" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="缩时収録" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>オフ</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="ループ録画" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>オフ</value>
+                
+                <value>2分</value>
+                
+                <value>3分</value>
+                
+                <value>5分</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="スロー撮影" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="画素設置" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="タイミング" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>オフ</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="自動撮影" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>オフ</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="移動追跡" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>オフ</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="暴露" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="ホワイトバランス" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>自動</value>
+                
+                <value>晴れた日</value>
+                
+                <value>曇りの日</value>
+                
+                <value>白熱ランプ</value>
+                
+                <value>蛍光</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi設定" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="画像回転" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="光周波数" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>自動</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="LEDインジケーターライト" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="自動スクリーンセーバー" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10秒</value>
+                
+                <value>20秒</value>
+                
+                <value>30秒</value>
+                
+                <value>オフ</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="タイム透かし" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="同期時間" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="フォーマット"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="出荷時設定にリセット"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="メモリ-"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="终了"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 日文 end-->
+    
+    <!-- 韩文 start-->
+    <settings index="4">
+        
+        <group_type>
+            
+            <value>비디오</value>
+            <value>사진</value>
+            <value>미리 보기</value>
+            <value>장치</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="비디오 품질" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="사운드를 녹음" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="시간 경과 사진 " app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>해제</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="녹화 시간" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>종료</value>
+                
+                <value>2분</value>
+                
+                <value>3분</value>
+                
+                <value>5분</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="느린 사진" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="사진 해상도" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="정시 사진" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>닫기</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="자동 사진" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>닫기</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="운동 궤적 사진" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>닫기</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="노출" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="화이트 밸런스" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>자동</value>
+                
+                <value>화창한 날</value>
+                
+                <value>흐린 날</value>
+                
+                <value>백열</value>
+                
+                <value>형광</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi 설정" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="이미지 회전" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="빛의 주파수" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>자동</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="LED 표시등" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="화면 전환" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10초</value>
+                
+                <value>20초</value>
+                
+                <value>30초</value>
+                
+                <value>종료</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="시간 워터 마크" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="동기 시간" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="체재"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="초기 설정 복원"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="메모리"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="종료"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 韩文 end-->
+    
+    <!-- 俄文 start-->
+    <settings index="5">
+        
+        <group_type>
+            
+            <value>Настройки параметров видео</value>
+            <value>Настройки параметров фото</value>
+            <value>Настройки параметров камеры</value>
+            <value>Настройки параметров устройства</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Разрешения видео" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Запись звука ВКЛ./ВЫКЛ." app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Замедленная видеозапись" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>Выкл.</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Циклическая запись" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>Выкл.</value>
+                
+                <value>2min</value>
+                
+                <value>3min</value>
+                
+                <value>5min</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Фотография с задержкой" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="Разрешение фото" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Задержка" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>Выкл.</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Авто" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>Выкл.</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Серия снимков" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>Выкл.</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Экспозиция" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="Баланс белого" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>Авто</value>
+                
+                <value>Солнечный</value>
+                
+                <value>Облачно</value>
+                
+                <value>Лампа накаливания</value>
+                
+                <value>Флуоресцентная лампа</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="Настройки WIFI" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="Поворот изображения" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="Частота источника света" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Авто</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="Светодиодный индикатор" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="Переключить" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>Выкл.</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="Настройки штампа времени в файле" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="Синхронизация времени" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="формат"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="Сброс на заводские настройки"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="Доступное место на карте памяти"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="Выход"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 俄文 end-->
+    
+    <!-- 德文 start-->
+    <settings index="6">
+        
+        <group_type>
+            
+            <value>Video Parameter</value>
+            <value>Foto Parameter</value>
+            <value>Kamera Parameter</value>
+            <value>Geräte Parameter</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Video-Auflösung" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Ton an/aus" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Zeitraffer-Aufnahme" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Loop Record" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>2min</value>
+                
+                <value>3min</value>
+                
+                <value>5min</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Zeitraffer" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="Bildauflösung" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Timed" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Auto" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Drama Shot" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Belichtung" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="Weißabgleich" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>Sonnig</value>
+                
+                <value>Bewölkt</value>
+                
+                <value>Glühlicht</value>
+                
+                <value>Fluoreszenzlicht</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi Einstellungen" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="Bilddrehung" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="Lichtfrequenz" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="LED-Anzeigelampe" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="Auto Bildschirmschoner" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>off</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="Datei Wasserzeichen" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="Zeitsynchronisation" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="formatieren"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="Werkseinstellung"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="Speicherplatz"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="beenden"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 德文 end-->
+    
+    <!-- 法文 start-->
+    <settings index="7">
+        
+        <group_type>
+            
+            <value>Vidéo</value>
+            <value>Photo</value>
+            <value>Aperçu</value>
+            <value>Dispositif</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Résolution de la vidéo" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Son vidéo" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Video accéléré" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Enregistrement en boucle" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>2min</value>
+                
+                <value>3min</value>
+                
+                <value>5min</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Photographie lente" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="réglage de Pixel" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Temporisateur" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Automatique" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Déplacement d’une piste" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Réglages de l'exposition" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="équilibre des blancs" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>Ensoleillé</value>
+                
+                <value>Nuage</value>
+                
+                <value>Lumière incandescente</value>
+                
+                <value>Lumière fluorescente</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi Dispositif" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="Rotation de l’image" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="Auto fréquence de lumière" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="Indicateur lumineux LED" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="Protégé-écran automatique" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>off</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="Filigrane d’horodatage" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="Le temps de synchronisation" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="Format"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="Réinitialisation"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="De stockage"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="Sortir de"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 法文 end-->
+    
+    <!-- 意大利文 start-->
+    <settings index="8">
+        
+        <group_type>
+            
+            <value>Video</value>
+            <value>Foto</value>
+            <value>Anteprima</value>
+            <value>Attrezzature</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Risoluzione video" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Audio video" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Video time-lapse" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Registrazione loop" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>2min</value>
+                
+                <value>3min</value>
+                
+                <value>5min</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Foto lenta" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="Qualità foto" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Tempistica" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Automatica" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Traccia in movimento" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Impostazioni di esposizione" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="Bilanciamento dei bianchi" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>Soleggiato</value>
+                
+                <value>Nuvoloso</value>
+                
+                <value>Luce incandescente</value>
+                
+                <value>Luce fluorescente</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi Impostazioni" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="Rotazione immagine" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="frequenza della luce" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="Spia indicatore LED" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="Screensaver automatico" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>off</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="Watermark orario" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="La sincronizzazione di Tempo" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="Formato"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="Ripristina impostazioni iniziali"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="La memoria"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="Uscita"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 意大利文 end-->
+    
+    <!-- 西班牙文 start-->
+    <settings index="9">
+        
+        <group_type>
+            
+            <value>Video</value>
+            <value>Fotos</value>
+            <value>Vista previa</value>
+            <value>El equipo</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Resolución de vídeo" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Sonido de Grabación" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Intervalo" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Bucle" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>2min</value>
+                
+                <value>3min</value>
+                
+                <value>5min</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Cámara lenta" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="Calidad fotografías" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Temporizador" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Automática" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Desenfoque de movimiento" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Ajustes de exposición" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="Balance de blancos" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>Soleado</value>
+                
+                <value>Nublado</value>
+                
+                <value>Luz incandescente</value>
+                
+                <value>Luz fluorescente</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi Siempre" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="Rotación de imagen" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="Frecuencia de fuente de luz" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="Luz de indicador LED" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="Salvapantallas automático" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>off</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="Sincr. de Fecha y hora" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="Sincronizar fecha y hora" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="Formatear"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="Configuración predeterminada"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="De almacenamiento"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="Salir"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 西班牙文 end-->
+    
+    <!-- 波兰语 start-->
+    <settings index="10">
+        
+        <group_type>
+            
+            <value>wideo</value>
+            <value>zdjęcia</value>
+            <value>pokaz</value>
+            <value>urządzenia</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="nagranie wideo" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="nagranie dźwięku" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="ważność" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="nagranie krążące" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>2min</value>
+                
+                <value>3min</value>
+                
+                <value>5min</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="zdjęcia" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="pixel ustawienia" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="czas na zdjęcia" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="automatyczne zdjęcie" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="zdjęcia toru" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="ustalenie narażenia" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="balans bieli" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>automatyczne</value>
+                
+                <value>w słoneczny dzień</value>
+                
+                <value>pochmurny dzień</value>
+                
+                <value>światło żarowe</value>
+                
+                <value>fluorescencyjne</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi ustawienia" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="obraz rotacji" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="światło częstotliwości" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="lampy led" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="automatyczne" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>off</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="czas wodny" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="synchronizacja czasu" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="format"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="zresetować ustawienia"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="przechowywanie"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="wyjście"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 波兰语 end-->
+    
+    <!-- 荷兰语 start-->
+    <settings index="11">
+        
+        <group_type>
+            
+            <value>Video</value>
+            <value>De foto 's</value>
+            <value>De preview</value>
+            <value>Apparatuur</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Videoresolutie" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Opnamevolume" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Intervalvideo-opname" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Lusopname" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>2min</value>
+                
+                <value>3min</value>
+                
+                <value>5min</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Intervalfotografie" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="Fotoresolutie" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Getimed" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Automatisch" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Dramaopname" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Belichting" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="Witbalans" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>Automatisch</value>
+                
+                <value>Zonnig</value>
+                
+                <value>Bewolkt</value>
+                
+                <value>Gloeilamp</value>
+                
+                <value>TL-lamp</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi Parameters" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="Afbeelding draaien" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="Lichtbronfrequentie" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="LED-indicatorlampje" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="Automatische screensavers" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>off</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="Tijdwatermerk" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="De synchronisatie van de tijd" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="Formatteren"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="De fabrieksinstellingen"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="De opslag van"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="Uit de"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 荷兰语 end-->
+    
+    <!-- 葡萄牙语 start-->
+    <settings index="12">
+        
+        <group_type>
+            
+            <value>Video</value>
+            <value>Fotos</value>
+            <value>Preview</value>
+            <value>Equipamentos</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Resolução de vídeo" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Gravação de som" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Lapse" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Ciclo de gravação" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>2min</value>
+                
+                <value>3min</value>
+                
+                <value>5min</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Slow photography" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="Resolução da fotografia" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Cronometrada" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Automático" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Disparo de drama" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Exposição" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="Equilíbrio do branco" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>Sunny</value>
+                
+                <value>Cloudy</value>
+                
+                <value>Incandescent Light</value>
+                
+                <value>Fluorescent Light</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi Set" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="Rotação de imagem" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="Frequência da fonte de luz" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="Luz do indicador LED" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="Protetor de TELA automática" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>off</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="Marca de água do tempo" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="A sincronização de tempo" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="Formato"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="Restaurar configurações de fábrica"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="Armazenamento"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="A saída"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 葡萄牙语 end-->
+    
+    <!-- 泰文 start-->
+    <settings index="13">
+        
+        <group_type>
+            
+            <value>วิดีโอ</value>
+            <value>ภาพถ่าย</value>
+            <value>แสดงตัวอย่าง</value>
+            <value>อุปกรณ์</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="ความละเอียดของวีดีโอ" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="บันทึกเสียง" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="ช่วงการบันทึก" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="วิดีโอลูป" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>2min</value>
+                
+                <value>3min</value>
+                
+                <value>5min</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="ภาพช้า" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="พิกเซล" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="หมดเวลา" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="อัตโนมัติ" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="ติดตามการเคลื่อนไหว" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>off</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="การเปิดรับแสง" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="สมดุลสีขาว" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>อัตโนมัติ</value>
+                
+                <value>มีแดด</value>
+                
+                <value>มีเมฆ</value>
+                
+                <value>หลอดไฟหลอดไส้</value>
+                
+                <value>เรืองแสง</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="WiFi การตั้งค่า" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="หมุนภาพ" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="แสงความถี่" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="ไฟ LED" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="สกรีนเซฟเวอร์" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>off</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="ลายน้ำ" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="เวลาที่ตรงกัน" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="การจัดรูปแบบ"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="เรียกคืนการตั้งค่าโรงงาน"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="การจัดเก็บ"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="ออก"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 泰文 end-->
+    
+   <!-- 捷克 start-->
+    <settings index="14">
+        
+        <group_type>
+            
+            <value>Parametry videa</value>
+            <value>Parametry snímků</value>
+            <value>Parametry kamery</value>
+            <value>Parametry zařízení</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Rozlišení videa" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Zvuk zapnutý/vypnutý" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Nahrávání Time Lapse" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>Vypnout</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Nahrávání ve smyčce" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>Vypnout</value>
+                
+                <value>2 minuty</value>
+                
+                <value>3 minuty</value>
+                
+                <value>5 minuty</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Time lapse" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="Rozlišení snímku" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Zpoždění" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>Vypnout</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Časosběrné snímání" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>Vypnout</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Vícenásobné snímání" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>Vypnout</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Expozice" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="Vyvážení bíle" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>Automaticky</value>
+                
+                <value>Slunečno</value>
+                
+                <value>Zataženo</value>
+                
+                <value>Umělé osvětlení</value>
+                
+                <value>Zářivka</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="WiFi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="Nastavení Wi-Fi" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="Přetočení snímku" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="Obnovovací frekvence" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Auto</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="Indikační LED dioda" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="Auto spořič obrazovky" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>Vypnout</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="Vodoznak souboru" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="Synchronizace času" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="Formátovat"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="Tovární nastavení"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="Úložný prostor"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="Zavřít"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 捷克语 end-->
+    
+    <!-- 斯洛伐克语 Slovakia start-->
+    <settings index="15">
+        
+        <group_type>
+            
+            <value>Parametre videá</value>
+            <value>Parametre snímkov</value>
+            <value>Parametre Kamera</value>
+            <value>Parametre zariadení</value>
+            
+        </group_type>
+        
+        <group index="0">
+            
+            <set index="0" id="video_resolution" name="Rozlíšenie videa" app_enalbe="1" cmd_send="A001" cmd_resp="A002"  ui_type="list" >
+                
+                <value>4K</value>
+                
+                <value>2.7K  30FPS</value>
+                
+                <value>1080P 60FPS</value>
+                
+                <value>1080P 30FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+                <value>720P  60FPS</value>
+                
+                <value>720P  30FPS</value>
+                
+            </set>
+            
+            <set index="1" id="record_sound" name="Zvuk zapnutý/vypnutý" app_enalbe="1" cmd_send="A00D" cmd_resp="A00E"  ui_type="checkbox" ></set>
+            
+            <set index="2" id="video_delayp" name="Nahrávanie Time Lapse" app_enalbe="1" cmd_send="A044" cmd_resp="A045"  ui_type="list" >
+                
+                <value>Vypnuté</value>
+                
+                <value>0.5s</value>
+                
+                <value>1s</value>
+                
+                <value>2s</value>
+                
+                <value>5s</value>
+                
+                <value>10s</value>
+                
+                <value>30s</value>
+                
+                <value>60s</value>
+                
+            </set>
+            
+            <set index="3" id="video_time_length" name="Nahrávanie v slučke" app_enalbe="1" cmd_send="A003" cmd_resp="A004"  ui_type="list" >
+                
+                <value>Vypnuté</value>
+                
+                <value>2 minúty</value>
+                
+                <value>3 minúty</value>
+                
+                <value>5 minúty</value>
+                
+            </set>
+            
+            <set index="4" id="video_slowp" name="Time Lapse" app_enalbe="1" cmd_send="A04A" cmd_resp="A04B"  ui_type="list" >
+                
+                <value>1080P 60FPS</value>
+                
+                <value>720P 90/120FPS</value>
+                
+            </set>
+            
+        </group>
+        
+        <group index="1">
+            
+            
+            <set index="0" id="photo_resolution" name="Rozlíšenie snímkuy" app_enalbe="1" cmd_send="A005" cmd_resp="A006"  ui_type="list" >
+                
+                <value>2M</value>
+                
+                <value>5M</value>
+                
+                <value>8M</value>
+                
+                <value>12M</value>
+                
+                <value>16M</value>
+                
+            </set>
+            
+            <set index="1" id="Time_take_photos" name="Spožděnie" app_enalbe="1" cmd_send="A04C" cmd_resp="A04D"  ui_type="list" >
+                
+                <value>Vypnuté</value>
+                
+                <value>3S</value>
+                
+                <value>5S</value>
+                
+                <value>10S</value>
+                
+                <value>20S</value>
+                
+            </set>
+            
+            <set index="2" id="Automatically_take_pictures" name="Automatické snímanie" app_enalbe="1" cmd_send="A04E" cmd_resp="A04F"  ui_type="list" >
+                
+                <value>Vypnuté</value>
+                
+                <value>3S</value>
+                
+                <value>10S</value>
+                
+                <value>15S</value>
+                
+                <value>20S</value>
+                
+                <value>30S</value>
+                
+            </set>
+            
+            <set index="3" id="Motion_pictures" name="Viacnásobné snímanie" app_enalbe="1" cmd_send="A058" cmd_resp="A059"  ui_type="list" >
+                
+                <value>Vypnuté</value>
+                
+                <value>3P/S</value>
+                
+                <value>5P/S</value>
+                
+                <value>10P/S</value>
+                
+            </set>
+            
+            
+            
+        </group>
+        
+        
+        <group index="2">
+            
+            <set index="0" id="exposure" name="Expozícia" app_enalbe="1" cmd_send="A009" cmd_resp="A00A"  ui_type="list" >
+                
+                <value>-3</value>
+                
+                <value>-2</value>
+                
+                <value>-1</value>
+                
+                <value>0</value>
+                
+                <value>1</value>
+                
+                <value>2</value>
+                
+                <value>3</value>
+                
+            </set>
+            
+            <set index="1" id="white_balance" name="vyváženie bielej" app_enalbe="1" cmd_send="A007" cmd_resp="A008"  ui_type="list" >
+                
+                <value>Automaticky</value>
+                
+                <value>Slnečno</value>
+                
+                <value>Zamračené</value>
+                
+                <value>Umelé osvetlenie</value>
+                
+                <value>Žiarivka</value>
+                
+            </set>
+            
+            <set index="2" id="wifi" name="Wi-Fi" app_enalbe="1" cmd_send="A030" cmd_resp=""  ui_type="checkbox" ></set>
+            
+            <set index="3" id="wifi_info" name="Nastavenie Wi-Fi" app_enalbe="1" cmd_send="A031" cmd_resp=""  ui_type="page" ></set>
+            
+            <set index="4" id="Image_rotation" name="Pretočenie snímku" app_enalbe="1" cmd_send="A056" cmd_resp="A057"  ui_type="checkbox" ></set>
+            
+            
+            <set index="5" id="light_freq" name="Obnovovacia frekvencia" app_enalbe="1" cmd_send="A050" cmd_resp="A051"  ui_type="list" >
+                
+                <value>Automaticky</value>
+                
+                <value>50HZ</value>
+                
+                <value>60HZ</value>
+                
+            </set>
+            
+            <set index="6" id="LED_lights" name="Indikačná LED dióda" app_enalbe="1" cmd_send="A052" cmd_resp="A053"  ui_type="checkbox" ></set>
+            
+            <set index="7" id="screen_switch" name="Šetrič obrazovky" app_enalbe="0" cmd_send="A021" cmd_resp="A022"  ui_type="list" >
+                
+                <value>10s</value>
+                
+                <value>20s</value>
+                
+                <value>30s</value>
+                
+                <value>Vypnuté</value>
+                
+            </set>
+            
+            
+            <set index="8" id="time_water_mark" name="Vodoznak" app_enalbe="1" cmd_send="A01D" cmd_resp="A01E"  ui_type="checkbox" ></set>
+            
+            <set index="9" id="time_sync" name="Synchronizácia času" app_enalbe="1" cmd_send="" cmd_resp="" ui_type="page"></set>
+            
+        </group>
+        
+        <group index="3">
+            
+            <set index="0" id="format"   name="Formátovat"       app_enalbe="1" cmd_send="A01F" cmd_resp="A020"  ui_type="item" ></set>
+            
+            <set index="1" id="reset"    name="Továrenské nastavenie"  app_enalbe="1" cmd_send="A054" cmd_resp="A055"  ui_type="item" ></set>
+            
+            <set index="2" id="storage"  name="Úložný priestor"     app_enalbe="1" cmd_send="A02A" cmd_resp="A02B"  ui_type="item" ></set>
+            
+            <set index="3" id="exit"     name="Zavrieť"        app_enalbe="1"  cmd_send="" cmd_resp=""   ui_type="item" ></set>
+            
+        </group>
+        
+        
+        
+    </settings>
+    <!-- 斯洛伐克语 Slovakia end-->
+    
+</device>
+
+
+
+
+
+
+
+
+
+

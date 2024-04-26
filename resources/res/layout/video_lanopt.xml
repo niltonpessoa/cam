@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/video_lan_opt_bg" android:layout_width="match_parent" android:layout_height="@dimen/video_lanopt_bg_height" android:layout_marginLeft="@dimen/video_lanopt_bg_mar_l_r" android:layout_marginRight="@dimen/video_lanopt_bg_mar_l_r">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageButton android:id="@+id/video_lan_opt_record" android:background="@drawable/video_lan_record_selector" android:layout_width="@dimen/video_lanopt_btn_height" android:layout_height="@dimen/video_lanopt_btn_height" android:layout_marginLeft="@dimen/video_lanopt_left_btn_mar_l"/>
+        <ImageButton android:id="@+id/video_lan_opt_capture" android:background="@drawable/video_lan_capture_selector" android:layout_width="@dimen/video_lanopt_btn_height" android:layout_height="@dimen/video_lanopt_btn_height" android:layout_marginLeft="@dimen/video_lanopt_mid_btn_mar_l_r" android:layout_marginRight="@dimen/video_lanopt_mid_btn_mar_l_r"/>
+        <ImageButton android:id="@+id/video_lan_opt_slowgraphy" android:background="@drawable/video_lan_slow_photography_selector" android:layout_width="@dimen/video_lanopt_btn_height" android:layout_height="@dimen/video_lanopt_btn_height"/>
+    </LinearLayout>
+    <ImageButton android:id="@+id/video_lan_opt_setting_btn" android:background="@drawable/video_lan_setting_selector" android:layout_width="@dimen/video_lanopt_btn_height" android:layout_height="@dimen/video_lanopt_btn_height" android:layout_marginRight="@dimen/video_lanopt_right_btn_mar_r" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

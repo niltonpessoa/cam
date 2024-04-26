@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/top_title" android:background="@drawable/top_title_bar_bg" android:layout_width="match_parent" android:layout_height="@dimen/title_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/title_text" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_title_tips" android:layout_centerInParent="true"/>
+        <Button android:textSize="@dimen/back_btn_textsize" android:textColor="@color/black_green_text_color" android:id="@+id/back_btn" android:background="@color/transparent" android:layout_width="@dimen/back_btn_width" android:layout_height="@dimen/back_btn_height" android:layout_marginLeft="@dimen/back_btn_marginleft" android:text="@string/main_video" android:drawableLeft="@drawable/back_green_crow" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ExpandableListView android:id="@+id/setting_listview" android:fadingEdge="none" android:fadingEdgeLength="0px" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:layout_below="@+id/top_title" android:overScrollMode="never"/>
+</RelativeLayout>

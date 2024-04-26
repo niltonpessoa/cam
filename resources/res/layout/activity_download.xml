@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/top_title" android:background="@drawable/top_title_bar_bg" android:layout_width="match_parent" android:layout_height="@dimen/title_height">
+        <TextView android:textSize="@dimen/title_text" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/file_opt_download" android:layout_centerInParent="true"/>
+        <Button android:textSize="@dimen/back_btn_textsize" android:textColor="@color/black_green_text_color" android:id="@+id/back_btn" android:background="@color/transparent" android:layout_width="@dimen/back_btn_width" android:layout_height="@dimen/back_btn_height" android:layout_marginLeft="@dimen/back_btn_marginleft" android:drawableLeft="@drawable/back_green_crow" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/local_size_bg" android:background="@drawable/file_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/top_title">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/local_size_leftpadding" android:layout_marginTop="@dimen/local_size_textpadtop">
+            <TextView android:textSize="@dimen/local_size_textsize" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mmsize_left"/>
+            <TextView android:textSize="@dimen/local_size_textsize" android:textColor="@color/black" android:id="@+id/local_size_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6.4GB"/>
+            <TextView android:textSize="@dimen/local_size_textsize" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/local_size_textpadding" android:text="@string/mmsize_total"/>
+            <TextView android:textSize="@dimen/local_size_textsize" android:textColor="@color/black" android:id="@+id/local_size_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8.0GB"/>
+        </LinearLayout>
+        <ProgressBar android:id="@+id/local_size_progress" android:layout_width="match_parent" android:layout_height="10dp" android:layout_marginLeft="@dimen/local_size_pro_pad" android:layout_marginTop="@dimen/local_size_pro_padtop" android:layout_marginRight="@dimen/local_size_pro_pad" android:layout_marginBottom="@dimen/local_size_pro_padtop" android:maxHeight="@dimen/local_size_pro_height" android:max="100" android:progress="50" android:progressDrawable="@drawable/file_mmsize_progress" android:minHeight="@dimen/local_size_pro_height" style="?android:attr/progressBarStyleHorizontal"/>
+    </LinearLayout>
+    <ListView android:id="@+id/download_list" android:fadingEdge="none" android:fadingEdgeLength="0px" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:layout_below="@+id/local_size_bg" android:overScrollMode="never"/>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:paddingLeft="@dimen/confirm_dialog_padding" android:paddingRight="@dimen/confirm_dialog_padding" android:paddingBottom="@dimen/confirm_dialog_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/round_conner_4_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/confirm_dialog_padding">
+        <TextView android:textSize="@dimen/confirm_dialog_tv_textsize" android:textColor="@color/black" android:gravity="center" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="@dimen/confirm_dialog_tv_height" android:text="@string/wifi_change_restart_app"/>
+        <Button android:textSize="@dimen/title_text" android:textColor="@color/main_2_pressed_text_color" android:id="@+id/confirm" android:background="@drawable/video_down_item" android:layout_width="match_parent" android:layout_height="@dimen/confirm_dialog_btn_height" android:text="@string/confirm"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ad_marker_color" format="color">
+    </attr>
+    <attr name="ad_marker_width" format="dimension">
+    </attr>
+    <attr name="alpha" format="float">
+    </attr>
+    <attr name="auto_show" format="boolean">
+    </attr>
+    <attr name="bar_height" format="dimension">
+    </attr>
+    <attr name="buffered_color" format="color">
+    </attr>
+    <attr name="buttonContent" format="string">
+    </attr>
+    <attr name="centered" format="boolean">
+    </attr>
+    <attr name="clipPadding" format="dimension">
+    </attr>
+    <attr name="controller_layout_id" format="reference">
+    </attr>
+    <attr name="coordinatorLayoutStyle" format="reference">
+    </attr>
+    <attr name="default_artwork" format="reference">
+    </attr>
+    <attr name="fadeDelay" format="integer">
+    </attr>
+    <attr name="fadeLength" format="integer">
+    </attr>
+    <attr name="fades" format="boolean">
+    </attr>
+    <attr name="fastforward_increment" format="integer">
+    </attr>
+    <attr name="fillColor" format="color">
+    </attr>
+    <attr name="font" format="reference">
+    </attr>
+    <attr name="fontProviderAuthority" format="string">
+    </attr>
+    <attr name="fontProviderCerts" format="reference">
+    </attr>
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string">
+    </attr>
+    <attr name="fontProviderQuery" format="string">
+    </attr>
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fontVariationSettings" format="string">
+    </attr>
+    <attr name="fontWeight" format="integer">
+    </attr>
+    <attr name="footerColor" format="color">
+    </attr>
+    <attr name="footerIndicatorHeight" format="dimension">
+    </attr>
+    <attr name="footerIndicatorStyle">
+        <enum name="none" value="0" />
+        <enum name="triangle" value="1" />
+        <enum name="underline" value="2" />
+    </attr>
+    <attr name="footerIndicatorUnderlinePadding" format="dimension">
+    </attr>
+    <attr name="footerLineHeight" format="dimension">
+    </attr>
+    <attr name="footerPadding" format="dimension">
+    </attr>
+    <attr name="gapWidth" format="dimension">
+    </attr>
+    <attr name="hide_during_ads" format="boolean">
+    </attr>
+    <attr name="hide_on_touch" format="boolean">
+    </attr>
+    <attr name="keylines" format="reference">
+    </attr>
+    <attr name="layout_anchor" format="reference">
+    </attr>
+    <attr name="layout_anchorGravity">
+        <flag name="bottom" value="50" />
+        <flag name="center" value="11" />
+        <flag name="center_horizontal" value="1" />
+        <flag name="center_vertical" value="10" />
+        <flag name="clip_horizontal" value="8" />
+        <flag name="clip_vertical" value="80" />
+        <flag name="end" value="800005" />
+        <flag name="fill" value="77" />
+        <flag name="fill_horizontal" value="7" />
+        <flag name="fill_vertical" value="70" />
+        <flag name="left" value="3" />
+        <flag name="right" value="5" />
+        <flag name="start" value="800003" />
+        <flag name="top" value="30" />
+    </attr>
+    <attr name="layout_behavior" format="string">
+    </attr>
+    <attr name="layout_dodgeInsetEdges">
+        <flag name="all" value="77" />
+        <flag name="bottom" value="50" />
+        <flag name="end" value="800005" />
+        <flag name="left" value="3" />
+        <flag name="none" value="0" />
+        <flag name="right" value="5" />
+        <flag name="start" value="800003" />
+        <flag name="top" value="30" />
+    </attr>
+    <attr name="layout_insetEdge">
+        <enum name="bottom" value="50" />
+        <enum name="end" value="800005" />
+        <enum name="left" value="3" />
+        <enum name="none" value="0" />
+        <enum name="right" value="5" />
+        <enum name="start" value="800003" />
+        <enum name="top" value="30" />
+    </attr>
+    <attr name="layout_keyline" format="integer">
+    </attr>
+    <attr name="linePosition">
+        <enum name="bottom" value="0" />
+        <enum name="top" value="1" />
+    </attr>
+    <attr name="lineWidth" format="dimension">
+    </attr>
+    <attr name="pageColor" format="color">
+    </attr>
+    <attr name="played_ad_marker_color" format="color">
+    </attr>
+    <attr name="played_color" format="color">
+    </attr>
+    <attr name="player_layout_id" format="reference">
+    </attr>
+    <attr name="ptrAdapterViewBackground" format="reference|color">
+    </attr>
+    <attr name="ptrAnimationStyle">
+        <flag name="flip" value="1" />
+        <flag name="rotate" value="0" />
+    </attr>
+    <attr name="ptrDrawable" format="reference">
+    </attr>
+    <attr name="ptrDrawableBottom" format="reference">
+    </attr>
+    <attr name="ptrDrawableEnd" format="reference">
+    </attr>
+    <attr name="ptrDrawableStart" format="reference">
+    </attr>
+    <attr name="ptrDrawableTop" format="reference">
+    </attr>
+    <attr name="ptrHeaderBackground" format="reference|color">
+    </attr>
+    <attr name="ptrHeaderSubTextColor" format="reference|color">
+    </attr>
+    <attr name="ptrHeaderTextAppearance" format="reference">
+    </attr>
+    <attr name="ptrHeaderTextColor" format="reference|color">
+    </attr>
+    <attr name="ptrListViewExtrasEnabled" format="reference|boolean">
+    </attr>
+    <attr name="ptrMode">
+        <flag name="both" value="3" />
+        <flag name="disabled" value="0" />
+        <flag name="manualOnly" value="4" />
+        <flag name="pullDownFromTop" value="1" />
+        <flag name="pullFromEnd" value="2" />
+        <flag name="pullFromStart" value="1" />
+        <flag name="pullUpFromBottom" value="2" />
+    </attr>
+    <attr name="ptrOverScroll" format="reference|boolean">
+    </attr>
+    <attr name="ptrRefreshableViewBackground" format="reference|color">
+    </attr>
+    <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean">
+    </attr>
+    <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean">
+    </attr>
+    <attr name="ptrShowIndicator" format="reference|boolean">
+    </attr>
+    <attr name="ptrSubHeaderTextAppearance" format="reference">
+    </attr>
+    <attr name="radius" format="dimension">
+    </attr>
+    <attr name="repeat_toggle_modes">
+        <flag name="all" value="2" />
+        <flag name="none" value="0" />
+        <flag name="one" value="1" />
+    </attr>
+    <attr name="resize_mode">
+        <enum name="fill" value="3" />
+        <enum name="fit" value="0" />
+        <enum name="fixed_height" value="2" />
+        <enum name="fixed_width" value="1" />
+        <enum name="zoom" value="4" />
+    </attr>
+    <attr name="rewind_increment" format="integer">
+    </attr>
+    <attr name="scrubber_color" format="color">
+    </attr>
+    <attr name="scrubber_disabled_size" format="dimension">
+    </attr>
+    <attr name="scrubber_dragged_size" format="dimension">
+    </attr>
+    <attr name="scrubber_drawable" format="reference">
+    </attr>
+    <attr name="scrubber_enabled_size" format="dimension">
+    </attr>
+    <attr name="selectedBold" format="boolean">
+    </attr>
+    <attr name="selectedColor" format="color">
+    </attr>
+    <attr name="show_shuffle_button" format="boolean">
+    </attr>
+    <attr name="show_timeout" format="integer">
+    </attr>
+    <attr name="shutter_background_color" format="color">
+    </attr>
+    <attr name="snap" format="boolean">
+    </attr>
+    <attr name="statusBarBackground" format="reference|color">
+    </attr>
+    <attr name="strokeColor" format="color">
+    </attr>
+    <attr name="strokeWidth" format="dimension">
+    </attr>
+    <attr name="surface_type">
+        <enum name="none" value="0" />
+        <enum name="surface_view" value="1" />
+        <enum name="texture_view" value="2" />
+    </attr>
+    <attr name="textNormalColor" format="color">
+    </attr>
+    <attr name="textPressColor" format="color">
+    </attr>
+    <attr name="textSize" format="float">
+    </attr>
+    <attr name="titlePadding" format="dimension">
+    </attr>
+    <attr name="topPadding" format="dimension">
+    </attr>
+    <attr name="touch_target_height" format="dimension">
+    </attr>
+    <attr name="ttcIndex" format="integer">
+    </attr>
+    <attr name="unplayed_color" format="color">
+    </attr>
+    <attr name="unselectedColor" format="color">
+    </attr>
+    <attr name="use_artwork" format="boolean">
+    </attr>
+    <attr name="use_controller" format="boolean">
+    </attr>
+    <attr name="vpiCirclePageIndicatorStyle" format="reference">
+    </attr>
+    <attr name="vpiIconPageIndicatorStyle" format="reference">
+    </attr>
+    <attr name="vpiLinePageIndicatorStyle" format="reference">
+    </attr>
+    <attr name="vpiTabPageIndicatorStyle" format="reference">
+    </attr>
+    <attr name="vpiTitlePageIndicatorStyle" format="reference">
+    </attr>
+    <attr name="vpiUnderlinePageIndicatorStyle" format="reference">
+    </attr>
+</resources>

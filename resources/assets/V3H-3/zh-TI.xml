@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="tl_shutdown">การปิด</string>
+  <string name="tl_sd_mount">มีการ์ด</string>
+  <string name="tl_sd_unmount">ไม่มีการ์ด</string>
+  <string name="tl_model_select">การเลือกโหมด</string>
+  <string-array name="mode_list">
+    <item>mode_normal_rec</item>
+    <item>mode_slowly_rec</item>
+    <item>mode_loop_rec</item>
+    <item>mode_timelapse_rec</item>
+    <item>mode_track_rec</item>
+    <item>mode_normal_pic</item>
+    <item>mode_auto_pic</item>
+    <item>mode_continue_pic</item>
+    <item>mode_timing_pic</item>
+  </string-array>
+  <string name="mode_normal_rec">Video</string>
+  <string name="mode_slowly_rec">Slowly</string>
+  <string name="mode_loop_rec">Loop</string>
+  <string name="mode_timelapse_rec">Lapse</string>
+  <string name="mode_track_rec">Track</string>
+  <string name="mode_normal_pic">Photo</string>
+  <string name="mode_auto_pic">Auto</string>
+  <string name="mode_continue_pic">Burst</string>
+  <string name="mode_timing_pic">Timer</string>
+   <string-array name="function_list">
+    <item>function_mode</item>
+    <item>function_media</item>
+    <item>function_setting</item>
+    <item>function_return</item>
+  </string-array>  
+  <string name="function_mode">Mode</string>
+  <string name="function_media">Media</string>
+  <string name="function_setting">Setting</string>
+  <string name="function_return">Return</string>    
+  <string name="ml_trackrec_resolution">Video resolution</string>
+  <string-array name="ml_trackrec_resolution">
+    <item>1080P30FPS</item>
+  </string-array>
+  <string name="ml_trackrec_length">Video length</string>
+  <string-array name="ml_trackrec_length">
+    <item>5s</item>
+    <item>10s</item>
+    <item>15s</item>
+  </string-array>
+  <string name="ml_track_interval">Track interval</string>
+  <string-array name="ml_track_interval">
+    <item>High</item>
+    <item>Middle</item>
+    <item>Low</item>
+  </string-array>
+  <string name="ml_record_resolution">ความละเอียดวิดีโอ</string>
+  <string-array name="ml_record_resolution">
+    <item>4K30FPS</item> 
+    <item>2.7K30FPS</item> 
+    <item>1080P120FPS</item>
+    <item>1080P60FPS</item>
+    <item>1080P30FPS</item>
+    <item>720P240FPS</item>
+    <item>720P120FPS</item> 
+    <item>720P60FPS</item>
+    <item>720P30FPS</item>
+  </string-array>
+  <string name="ml_setting_first_colwidth">110</string>
+  <string name="ml_setting_second_colwidth">110</string>
+  <string name="ml_setting_third_colwidth">34</string>
+  <string name="ml_modelselect_item_width">106</string>
+  <string name="ml_modelselect_item_height">90</string>
+  <string name="ml_voicectrl_list_item_height">50</string>
+  <string name="ml_record_antishake">Anti-Shake</string>
+  <string name="ml_record_encodingtype">Main Record Encoding Type</string>
+  <string-array name="ml_record_encodingtype">
+    <item>H264</item>
+    <item>H265</item>
+  </string-array>
+  <string name="ml_record_audio">เสียงวิดีโอ</string>
+  <string-array name="ml_record_audio">
+    <item>ปิด</item>
+    <item>เปิด</item>
+  </string-array>
+  <string name="ml_record_eis">ระบบป้องกันภาพสั่นไหวแบบอิเล็กทรอนิกส์</string>
+  <string-array name="ml_record_eis">
+    <item>ปิด</item>
+    <item>เปิด</item>
+  </string-array>
+  <string name="ml_record_interval">ช่วงเวลาการบันทึก</string>
+  <string-array name="ml_record_interval">
+    <item>0.5วินาที</item>
+    <item>1วินาที</item>
+    <item>2วินาที</item>
+    <item>5วินาที</item>
+    <item>10วินาที</item>
+    <item>30วินาที</item>
+    <item>60วินาที</item>
+  </string-array>
+  <string name="ml_record_length">ความยาววิดีโอ</string>
+  <string-array name="ml_record_length">
+    <item>2 นาที</item>
+    <item>3 นาที</item>
+    <item>5 นาที</item>
+  </string-array>
+  <string name="ml_record_slowmotion">ถ่ายภาพช้า</string>
+  <string-array name="ml_record_slowmotion">
+    <item>1080P 4X</item>
+    <item>1080P 2X</item>
+    <item>720P 8X</item>
+    <item>720P 4X</item>
+  </string-array>
+  <string name="ml_timelapse_resolution">ความละเอียดของภาพ</string>
+  <string-array name="ml_timelapse_resolution">
+    <item>4K</item>
+    <item>2.7K</item>
+    <item>1080P</item>
+    <item>720P</item>
+  </string-array>
+  <string name="ml_photo_resolution">การตั้งค่าพิกเซล</string>
+  <string-array name="ml_photo_resolution">
+    <item>16M</item>
+    <item>13M</item>
+    <item>8M</item>
+  </string-array>
+  <string name="ml_photo_formate">รูปแบบรูปภาพ</string>
+  <string-array name="ml_photo_formate">
+    <item>JPEG</item>
+    <item>JPEG + RAW</item>
+  </string-array>
+  <string name="ml_photo_timewater">ภาพลายน้ำ</string>
+  <string name="ml_photo_countdown">การนับถอยหลัง</string>
+  <string-array name="ml_photo_countdown">
+    <item>3วินาที</item>
+    <item>5วินาที</item>
+    <item>10วินาที</item>
+    <item>20วินาที</item>
+  </string-array>
+  <string name="ml_photo_interval">ช่วงถ่ายภาพ</string>
+  <string-array name="ml_photo_interval">
+    <item>3วินาที</item>
+    <item>10วินาที</item>
+    <item>15วินาที</item>
+    <item>20วินาที</item>
+    <item>30วินาที</item>
+  </string-array>
+  <string name="ml_photo_freq">ความถี่ของภาพ</string>
+  <string-array name="ml_photo_freq">
+    <item>3P/s</item>
+    <item>5P/s</item>
+    <item>10P/s</item>
+  </string-array>
+  <string name="ml_camera_metering">โหมดการวัดแสง</string>
+  <string-array name="ml_camera_metering">
+    <item>การวัดค่าเฉลี่ย</item>
+    <item>การวัดแสงกลาง</item>
+    <item>การวัดแสงเฉพาะจุด</item>
+    <item>เมตริกเมตริก</item>
+  </string-array>
+  <string name="ml_camera_sharpness">ความคมชัด</string>
+  <string-array name="ml_camera_sharpness">
+    <item>ต่ำ</item>
+    <item>ใน</item>
+    <item>สูง</item>
+  </string-array>
+  <string name="ml_video_quality">คุณภาพของวิดีโอ</string>
+  <string-array name="ml_video_quality">
+    <item>สูง</item>
+    <item>ใน</item>
+    <item>ต่ำ</item>
+  </string-array>
+  <string name="ml_video_shutter">ชัตเตอร์</string>
+  <string-array name="ml_video_shutter">
+    <item>อัตโนมัติ</item>
+    <item>1/240 วินาที</item>
+    <item>1/120 วินาที</item>
+    <item>1/60 วินาที</item>
+    <item>1/30 วินาที</item>
+  </string-array>
+  <string name="ml_photo_shutter">ชัตเตอร์</string>
+  <string-array name="ml_photo_shutter">
+    <item>อัตโนมัติ</item>
+    <item>2 วินาที</item>
+    <item>5 วินาที</item>
+    <item>10 วินาที</item>
+    <item>15 วินาที</item>
+    <item>20 วินาที</item>
+    <item>30 วินาที</item>
+  </string-array>
+  <string name="ml_camera_iso">ความไว</string>
+  <string-array name="ml_camera_iso">
+    <item>อัตโนมัติ</item>
+    <item>100</item>
+    <item>200</item>
+    <item>400</item>
+    <item>800</item>
+    <item>1600</item>
+    <item>3200</item>
+    <item>6400</item>
+  </string-array>
+  <string name="ml_video_length">ความยาววิดีโอ</string>
+  <string-array name="ml_video_length">
+    <item>ใด ๆ</item>
+    <item>6 วินาที</item>
+    <item>8 วินาที</item>
+    <item>10 วินาที</item>
+    <item>20 วินาที</item>
+    <item>30 วินาที</item>
+    <item>60 วินาที</item>
+    <item>120 วินาที</item>
+  </string-array>
+  <string name="ml_photo_dramashot">กล้องวิถีการเคลื่อนที่</string>
+  <string-array name="ml_photo_dramashot">
+    <item>ปิด</item>
+    <item>3P/S</item>
+    <item>5P/S</item>
+    <item>10P/S</item>
+  </string-array>
+  <string name="ml_camera_exposure">การตั้งค่าการเปิดรับแสง</string>
+  <string-array name="ml_camera_exposure">
+    <item>-3</item>
+    <item>-2</item>
+    <item>-1</item>
+    <item>0</item>   
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <string name="ml_camera_whitebalance">ไวท์บาลานซ์</string>
+  <string-array name="ml_camera_whitebalance">
+    <item>อัตโนมัติ</item>
+    <item>แดด</item>
+    <item>พยับแดด</item>
+    <item>แสงหลอดไส้</item>
+    <item>เรืองแสง</item>
+  </string-array>
+  <string name="ml_camera_imagerotation">การหมุนภาพ</string>
+  <string-array name="ml_camera_imagerotation">
+    <item>ปิด</item>
+    <item>เปิด</item>
+  </string-array>
+  <string name="ml_camera_lightsourcefrequency">ความถี่ของแหล่งกำเนิดแสง</string>
+  <string-array name="ml_camera_lightsourcefrequency">
+    <item>อัตโนมัติ</item>
+    <item>50Hz</item>
+    <item>60Hz</item>
+  </string-array>
+  <string name="ml_camera_ledindicator">ไฟ LED</string>
+  <string-array name="ml_camera_ledindicator">
+    <item>ปิด</item>
+    <item>เปิด</item>
+  </string-array>
+  <string name="ml_camera_autoscreensaver">โปรแกรมรักษาหน้าจออัตโนมัติ</string>
+  <string-array name="ml_camera_autoscreensaver">
+    <item>ปิด</item>
+    <item>30 วินาที</item>
+    <item>1 นาที</item>
+    <item>2 นาที</item>
+  </string-array>
+  <string name="ml_camera_timedshutdown">การปิดระบบตามกำหนดเวลา</string>
+  <string-array name="ml_camera_timedshutdown">
+    <item>ปิด</item>
+    <item>3 นาที</item>
+    <item>5 นาที</item>
+    <item>10 นาที</item>
+  </string-array>
+  <string name="ml_camera_timewatermark">ลายน้ำเวลา</string>
+  <string-array name="ml_camera_timewatermark">
+    <item>ปิด</item>
+    <item>เปิด</item>
+  </string-array>
+  <string name="ml_device_beep">การตั้งค่าเสียง</string>
+  <string-array name="ml_device_beep">
+    <item>สูง</item> 
+    <item>ใน</item>
+    <item>ต่ำ</item>
+    <item>ปิด</item>
+  </string-array>
+  <string name="ml_device_voice_ctrl_list">Voice Ctrl List</string>
+    <string-array name="ml_device_voice_ctrl_list">
+    <item>XiaoZhi begin to record</item>
+    <item>XiaoZhi stop recording</item>
+    <item>XiaoZhi begin to take picture</item>
+    <item>XiaoZhi begin to take picture continuously</item>
+    <item>XiaoZhi power off</item>
+    <item>……</item>
+  </string-array>
+  <string name="ml_device_voice_ctrl">Voice Ctrl</string>
+  <string-array name="ml_device_voice_ctrl">
+    <item>Turn Off</item>
+    <item>Turn On</item>
+  </string-array>
+  <string name="ml_device_standby">Sleep wake up</string>
+  <string-array name="ml_device_standby">
+    <item>Turn 0ff</item>
+    <item>Turn On</item>
+  </string-array>
+  <string name="ml_camera_distortioncalibration">การบิดเบือนการบิดเบือน</string>
+  <string-array name="ml_camera_distortioncalibration">
+    <item>ปิด</item>
+    <item>เปิด</item>
+  </string-array>
+  <string name="ml_device_wireless">จุดเชื่อมต่อไร้สาย</string>
+  <string-array name="ml_device_wireless">
+    <item>ปิด</item>
+    <item>เปิด</item>
+  </string-array>
+  <string name="ml_device_wireless_info">ข้อมูล hotspot ไร้สาย</string>
+  <string name="ml_device_wireless_info_ssid">ชื่อ hotspot:</string>
+  <string name="ml_device_wireless_info_pwd">รหัสผ่าน:</string>
+  <string name="ml_device_wireless_reset_title">คุณต้องการรีเซ็ต hotspot ไร้สายหรือไม่?</string>
+  <string name="ml_device_wireless_reset_title">Do you want to reset Wi-Fi?</string>
+  <string name="ml_device_wireless_reset">รีเซ็ต hotspot ไร้สาย</string>
+  <string-array name="ml_device_wireless_reset">
+    <item>ยืนยัน</item>
+    <item>ยกเลิก</item>
+  </string-array>
+  <string name="ml_device_language">ภาษา</string>
+  <string-array name="ml_device_language">
+    <item>简体中文</item>
+    <item>繁體中文</item>
+    <item>English</item>
+    <item>日本語</item>
+    <item>한국의</item>
+    <item>Pусский</item>
+    <item>Deutsch</item>
+    <item>Français</item>
+    <item>Italiano</item>
+    <item>Español</item>
+    <item>Português</item>
+    <item>ไทย</item>
+  </string-array>
+  <string name="ml_device_date_config">การตั้งค่าวันที่</string>
+  <string name="date_year">ปี</string>
+  <string name="date_month">เดือน</string>
+  <string name="date_day">วัน</string>
+  <string name="ml_device_time_config">การตั้งเวลา</string>
+  <string name="time_hour">เวลา</string>
+  <string name="time_minute">นาที</string>
+  <string name="time_second">วินาที</string>
+  <string name="ml_device_datetime_format">วันที่เวลา</string>
+  <string-array name="ml_device_datetime_format">
+    <item>YYYY/MM/DD</item>
+    <item>MM/DD/YYYY</item>
+    <item>DD-MM-YYYY</item>
+  </string-array>
+  <string name="ml_device_voicestatus">เสียง</string>
+  <string-array name="ml_device_voicestatus">
+    <item>ปิด</item>
+    <item>30%</item>
+    <item>50%</item>
+    <item>80%</item>
+    <item>100%</item>
+  </string-array>
+  <string name="ml_device_resetfactory">คืนค่าการตั้งค่าโรงงาน</string>
+  <string name="ml_device_resetfactory_failed">Factory Reset failure</string>
+  <string name="ml_device_resetfactory_success">Factory Reset successfully</string>
+  <string-array name="ml_device_resetfactory">
+    <item>ยืนยัน</item>
+    <item>ยกเลิก</item>
+  </string-array>
+  <string name="ml_device_resetselection">ยืนยันการคืนค่าการตั้งค่าจากโรงงานหรือไม่?</string>
+  <string name="ml_confirm_reboot">เริ่มใหม่หรือไม่?</string>
+  <string name="ml_device_format">การจัดรูปแบบ</string>
+  <string-array name="ml_device_format">
+    <item>ยืนยัน</item>
+    <item>ยกเลิก</item>
+  </string-array>
+  <string name="ml_device_format_doing">การจัดรูปแบบ ...</string>
+  <string name="ml_device_format_failed">ไม่สามารถจัดรูปแบบได้</string>
+  <string name="ml_device_format_success">ได้รับการจัดรูปแบบเรียบร้อยแล้ว</string>
+  <string name="ml_device_deviceinfo">ข้อมูลอุปกรณ์</string>
+  <string-array name="ml_device_deviceinfo">
+    <item>V8</item>
+    <item>SunChip</item>
+    <item>V2.0</item>
+  </string-array>
+  <string name="ml_camera_fov">FOV</string>
+  <string-array name="ml_camera_fov">
+    <item>ปิด</item>
+    <item>กว้าง</item>
+    <item>กลาง</item>
+    <item>แคบ</item>
+  </string-array>  
+  <string name="ml_device_bootguide">Boot Guide</string>
+  <string-array name="ml_device_bootguide">
+    <item>Turn Off</item>
+    <item>Turn On</item>
+  </string-array>
+ <string name="ml_quit_exit">กดตกลงเพื่อออกจาก</string>
+ <string name="ml_camera_wifiswitch">ข้อมูล WIFI</string>
+ <string name="ml_camera_wifiswitch_ssid">ชื่อ WIFI: </string>
+ <string name="ml_camera_wifiswitch_passwd">รหัสผ่าน WIFI: </string>
+ <string name="ml_camera_wifiswitch_tip"> กดปุ่มวิดีโอแบบยาวเพื่อออกจาก WIFI </string>
+  <string name="ml_camera_wifiswitch_connect">ความสำเร็จในการเชื่อมต่อ WIFI</string>   
+ <string name="ml_prompt">คำใบ้ </string>
+  <string name="ml_prompt_tf_null">ไม่พบการ์ด TF กรุณาใส่การ์ด TF! </string>
+  <string name="ml_prompt_tf_full"> พื้นที่จัดเก็บข้อมูลบัตร TF ไม่เพียงพอ!</string>
+  <string name="ml_prompt_tf_fs_error"> ระบบไฟล์ที่ไม่รองรับมีรูปแบบหรือไม่?</string>
+  <string name="ml_prompt_tf_speedclass_error">Low speed card，please replace!</string>
+   <string name="ml_prompt_no_file">ไม่มีไฟล์</string>
+  <string name="ml_prompt_bat_full">แบตเตอรี่เต็มแล้ว!</string>
+  <string name="ml_prompt_bat_low">แบตเตอรี่ต่ำห้ามวิดีโอ / กล้องถ่ายรูป 5s หลังจากปิดเครื่อง! </string>
+  <string name="ml_prompt_auto_shutdown"> การปิดระบบอัตโนมัติหลังจากผ่านไป 5 วินาที!</string>
+  <string name="ml_prompt_bat_forbid_work"> แบตเตอรี่ต่ำห้ามถ่ายวิดีโอ / /!</string>
+  <string name="ml_prompt_forbid_audio">โหมดปัจจุบันไม่รองรับการบันทึก!</string>
+  <string name="ml_prompt_bat_charge"> กำลังไฟฟ้าน้อยกว่า 30% กรุณาชาร์จ! </string>
+  <string name="ml_prompt_database_full">ฐานข้อมูลเต็มโปรดลบบันทึกเก่า!</string>
+  <string name="ml_prompt_camera_error">ความผิดปกติในการรับชมภาพกล้องจะเริ่มต้นใหม่!</string>
+  <string name="ml_prompt_rec_write_file_error">การ์ดความเร็วต่ำหยุดการบันทึก!</string>
+  <string name="ml_prompt_unsupported_func">ไม่สนับสนุนความละเอียดหรือโหมดปัจจุบัน! </string>
+  <string name="ml_prompt_unsupported_ise">ISE is not supported when the shutter is turned on!</string>
+  <string name="ml_prompt_unsupported_shutter">The setting of shutter is not supported when the ISE is turened on!</string>
+  <string name="ml_prompt_device_busy">อุปกรณ์ไม่ว่าง! </string>
+  <string name="ml_prompt_unsupported_op"> ไม่สนับสนุนการดำเนินการนี้! </string>
+  <string name="ml_prompt_exception"> การตั้งค่าระบบผิดปกติจะเรียกคืนการตั้งค่าโรงงาน </string>
+  <string name="ml_prompt_delete_file">ตกลงเพื่อลบไฟล์ปัจจุบันหรือไม่?</string>
+  <string name="ml_prompt_videofile_error">ไฟล์วิดีโอไม่สมบูรณ์ไม่สามารถเล่นได้ตามปกติให้ลบ? </string>
+  <string name="ml_prompt_track_synthesis">Track is synthesizing!</string>
+  <string name="ml_prompt_track_synthesis_done">Track has synthesized!</string>
+  <string name="ml_prompt_track_synthesis_failed">Track synthetises unsuccessfully!</string>
+  <string name="info_dialog">ข้อมูล</string>
+  <string name="confirm">ข้อมูล</string>
+  <string name="cancel">ยกเลิก</string>
+  <string name="tl_playlist">โปรดเลือกเล่นไฟล์</string>
+  <string name="tl_media_file">ไฟล์มีเดีย</string>
+  <string name="delete_dialog">ลบ</string>
+  <string name="delete_info">คุณแน่ใจหรือไม่ว่าต้องการลบไฟล์ปัจจุบัน?</string>
+  <string name="tl_usb_charge">โหมดการชาร์จ</string>
+  <string name="tl_usb_mass_storage">โหมดเก็บข้อมูล</string>
+  <string name="tl_usb_charging">โหมดการชาร์จ</string>
+  <string name="tl_usb_connect">เชื่อมต่อกับ USB แล้ว</string>
+  <string name="tl_usb_webcam">โหมดกล้อง</string>
+  <string name="update_dialog_title">การอัปเกรดระบบ</string>
+  <string name="ml_prompt_ota_update">การอัพเกรด OTA หรือไม่? </string>
+   <string name="ml_device_deviceinfo_mode">Product Model: </string>
+   <string name="ml_device_deviceinfo_version">เวอร์ชั่นของซอฟต์แวร์: </string>
+   <string name="ml_device_deviceinfo_update">ปรับปรุงเวลา:  </string>
+  <string name="ml_device_deviceinfo_about">ข้อมูลอุปกรณ์</string>
+   <string name="ml_device_deviceinfo_manufacturer">ผู้ผลิต:  </string>
+   <string name="ml_device_deviceinfo_manufacturer1">เช้ามืดยุค</string>
+   <string name="ml_device_deviceinfo_sd">การ์ด SD</string>
+   <string name="ml_device_deviceinfo_sdformat">การจัดรูปแบบ</string>
+   <string name="ml_device_deviceinfo_no_sd">SD ผิดปกติ</string>
+   <string name="ml_device_deviceinfo_sd_abnormal">การ์ดหน่วยความจำผิดปกติ</string>
+   <string name="ml_device_deviceinfo_storage_space">พื้นที่เก็บข้อมูล: </string>
+   <string name="ml_device_deviceinfo_content">V316 TP SDV</string>
+   <string name="ml_device_deviceinfo_product_version">V3.0</string>
+   <string name="ml_media_file_info">ข้อมูลไฟล์มีเดีย</string>
+   <string name="ml_video_file_length">ความยาววิดีโอ: </string>
+   <string name="ml_video_file_resolution">ความละเอียดวิดีโอ: </string>
+   <string name="ml_file_create_time">เวลาในการสร้าง: </string>
+   <string name="ml_file_name">FileName: </string>
+   <string name="ml_file_size">ขนาดไฟล์: </string>
+   <string name="ml_video_file_fps">อัตราเฟรมวิดีโอ: </string>
+   <string name="ml_video_file_bps">อัตรารหัสวิดีโอ: </string>
+   <string name="ml_pic_file_resolution">ความละเอียดของภาพ: </string>
+   <string name="ml_ota_install_packet">Packet installation</string>
+  <string name="ml_ota_install_notice">Do not turn off the device</string>
+  <string name="ml_ota_install_failed">Packet installation fialed,ready to reboot</string>
+  <string name="ml_ota_install_finsh">Update finished, device will be reboot.</string>
+  <string name="ml_ota_install_check_md5_fail">Failed to check md5 value,firmware is invalid</string>
+  <string name="ml_ota_instal_found_img_fail">Failed to found the version.</string>
+    <string name="ml_warn_wait">ที่รอคอย</string> 
+   <string name="ml_pic_file_saving">picture saving... </string>
+   <string name="all_letters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+   <string name="all_digit_num">0123456789</string>
+   <string name="all_symbol">!@#$%^*():;"',/?[]</string>
+</resources>
+

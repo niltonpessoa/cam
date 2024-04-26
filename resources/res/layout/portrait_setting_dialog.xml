@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@+id/title_top" android:background="@drawable/setting_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/por_set_top_height">
+            <TextView android:textSize="@dimen/por_set_top_txsize" android:textColor="@color/item_text" android:id="@+id/por_set_title" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            <ImageButton android:id="@+id/por_set_back" android:background="@drawable/video_por_dialog_back" android:layout_width="@dimen/por_set_item_back_height" android:layout_height="@dimen/por_set_item_back_height" android:layout_marginRight="@dimen/por_set_item_back_padding" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <ListView android:id="@+id/por_set_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null"/>
+    </LinearLayout>
+</RelativeLayout>

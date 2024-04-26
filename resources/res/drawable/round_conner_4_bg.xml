@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:shape="rectangle">
+    <solid android:color="@color/white_dialog_bg"/>
+    <corners android:topLeftRadius="@dimen/confirm_dialog_padding" android:topRightRadius="@dimen/confirm_dialog_padding" android:bottomLeftRadius="@dimen/confirm_dialog_padding" android:bottomRightRadius="@dimen/confirm_dialog_padding"/>
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/video_por_btm_param_select_bg" android:layout_width="@dimen/video_por_mid_param_selector_lst_width" android:layout_height="@dimen/video_por_mid_param_selector_lst_height">
+        <ListView android:id="@+id/ls_data" android:background="@color/transparent" android:paddingTop="@dimen/video_por_mid_param_selector_lst_pad_td" android:paddingBottom="@dimen/video_por_mid_param_selector_lst_pad_td" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@color/transparent" android:overScrollMode="never"/>
+    </LinearLayout>
+</LinearLayout>
